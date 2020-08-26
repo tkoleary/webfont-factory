@@ -1,0 +1,313 @@
+/*
+//@font-face {
+	@include font-face-variable(Noto, Serif, Arabic, VF, Regular, normal, normal);
+	unicode-range: $arabic;
+}*/
+@font-face {
+  font-family: "Noto Serif Arabic";
+  src: url("fonts/NotoSerifArabic-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifArabic-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
+}
+@font-face {
+  font-family: "Noto Serif Armenian";
+  src: url("fonts/NotoSerifArmenian-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifArmenian-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0530-058F;
+}
+@font-face {
+  font-family: "Noto Serif Balinese";
+  src: url("fonts/NotoSerifBalinese-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifBalinese-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1B00-1B7F;
+}
+/*
+// Variable Serif fonts for Bamum
+@font-face {
+	@include font-face-variable(Noto, Serif, Bamum, VF, Regular, normal, normal);
+	unicode-range: $bamum;
+}*/
+@font-face {
+  font-family: "Noto Serif Bengali";
+  src: url("fonts/NotoSerifBengali-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifBengali-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0980-09FF;
+}
+/*
+// Variable Serif fonts for Brahmi
+@font-face {
+	@include font-face-variable(Noto, Serif, Brahmi, VF, Regular, normal, normal);
+	unicode-range: $brahmi;
+}
+// Variable Serif fonts for Buginese
+@font-face {
+	@include font-face-variable(Noto, Serif, Buginese, VF, Regular, normal, normal);
+	unicode-range: $buginese;
+}
+// Variable Serif fonts for Buhid
+@font-face {
+	@include font-face-variable(Noto, Serif, Buhid, VF, Regular, normal, normal);
+	unicode-range: $buhid;
+}
+// Variable Serif fonts for Unified Canadian Aboriginal
+@font-face {
+	@include font-face-variable(Noto, Serif, Canadian Aboriginal, VF, Regular, normal, normal);
+	unicode-range: $c-aboriginal;
+}
+// Variable Serif fonts for Cherokee
+@font-face {
+	@include font-face-variable(Noto, Serif, Cherokee, VF, Regular, normal, normal);
+	unicode-range: $cherokee;
+}
+// Variable Serif fonts for Cham
+@font-face {
+	@include font-face-variable(Noto, Serif, Cham, VF, Regular, normal, normal);
+	unicode-range: $cham;
+}*/
+@font-face {
+  font-family: "Noto Serif LGC";
+  src: url("fonts/NotoSerifLGC-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifLGC-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0400-04FF, U+0500-052F, U+1C80-1C8F;
+}
+@font-face {
+  font-family: "Noto Serif Devanagari";
+  src: url("fonts/NotoSerifDevanagari-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifDevanagari-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0900-097F, U+A8E0-A8FF;
+}
+@font-face {
+  font-family: "Noto Serif Ethiopic";
+  src: url("fonts/NotoSerifEthiopic-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifEthiopic-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
+}
+@font-face {
+  font-family: "Noto Serif Georgian";
+  src: url("fonts/NotoSerifGeorgian-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifGeorgian-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+10A0-10FF, U+1C90-1CBF, U+2D00-2D2F;
+}
+@font-face {
+  font-family: "Noto Serif LGC";
+  src: url("fonts/NotoSerifLGC-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifLGC-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+@font-face {
+  font-family: "Noto Serif Gujarati";
+  src: url("fonts/NotoSerifGujarati-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifGujarati-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0A80-0AFF;
+}
+@font-face {
+  font-family: "Noto Serif Gurmukhi";
+  src: url("fonts/NotoSerifGurmukhi-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifGurmukhi-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0A00-0A7F;
+}
+@font-face {
+  font-family: "Noto Serif Hebrew";
+  src: url("fonts/NotoSerifHebrew-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifHebrew-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0590-05FF;
+}
+@font-face {
+  font-family: "Noto Serif Kannada";
+  src: url("fonts/NotoSerifKannada-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifKannada-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0C80-0CFF;
+}
+@font-face {
+  font-family: "Noto Serif Khmer";
+  src: url("fonts/NotoSerifKhmer-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifKhmer-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1780-17FF, U+19E0-19FF;
+}
+@font-face {
+  font-family: "Noto Serif Lao";
+  src: url("fonts/NotoSerifLao-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifLao-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0E80-0EFF;
+}
+@font-face {
+  font-family: "Noto Serif Latin";
+  src: url("fonts/NotoSerifLatin-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifLatin-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-017F, U+0180-024F, U+0370-03FF, U+0259-03C0, U+1E00-1EFF, U+2000-FB02;
+}
+/*
+// Variable Serif fonts for Limbu
+@font-face {
+	@include font-face-variable(Noto, Serif, Limbu, VF, Regular, normal, normal);
+	unicode-range: $limbu;
+}*/
+@font-face {
+  font-family: "Noto Serif Lisu";
+  src: url("fonts/NotoSerifLisu-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifLisu-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+A4D0-A4FF;
+}
+@font-face {
+  font-family: "Noto Serif Malayalam";
+  src: url("fonts/NotoSerifMalayalam-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifMalayalam-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0D00-0D7F;
+}
+/*
+// Variable Serif fonts for Mongolian
+@font-face {
+	@include font-face-variable(Noto, Serif, Mongolian, VF, Regular, normal, normal);
+	unicode-range: $mongolian;
+}*/
+@font-face {
+  font-family: "Noto Serif Myanmar";
+  src: url("fonts/NotoSerifMyanmar-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifMyanmar-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
+}
+/*
+// Variable Serif fonts for NKo
+@font-face {
+	@include font-face-variable(Noto, Serif, NKo, VF, Regular, normal, normal);
+	unicode-range: $nko;
+}
+// Variable Serif fonts for Nushu
+@font-face {
+	@include font-face-variable(Noto, Serif, Nushu, VF, Regular, normal, normal);
+	unicode-range: $nushu;
+}
+// Variable Serif fonts for Oriya
+@font-face {
+	@include font-face-variable(Noto, Serif, Oriya, VF, Regular, normal, normal);
+	unicode-range: $oriya;
+}*/
+@font-face {
+  font-family: "Noto Serif Sinhala";
+  src: url("fonts/NotoSerifSinhala-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifSinhala-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0D80-0DFF;
+}
+/*
+// Variable Serif fonts for Tagalog
+@font-face {
+	@include font-face-variable(Noto, Serif, Tagalog, VF, Regular, normal, normal);
+	unicode-range: $tagalog;
+}
+// Variable Serif fonts for Tai Le
+@font-face {
+	@include font-face-variable(Noto, Serif, TaiLe, VF, Regular, normal, normal);
+	unicode-range: $tai-le;
+}
+// Variable Serif fonts for Tai Tham
+@font-face {
+	@include font-face-variable(Noto, Serif, TaiTham, VF, Regular, normal, normal);
+	unicode-range: $tai-tham;
+}
+// Variable Serif fonts for Tai Viet
+@font-face {
+	@include font-face-variable(Noto, Serif, TaiViet, VF, Regular, normal, normal);
+	unicode-range: $tai-viet;
+}
+// Variable serif fonts for Takri
+@font-face {
+	@include font-face-variable(Noto, Serif, Takri, VF, Regular, normal, normal);
+	unicode-range: $takri;
+}*/
+@font-face {
+  font-family: "Noto Serif Tamil";
+  src: url("fonts/NotoSerifTamil-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifTamil-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
+}
+@font-face {
+  font-family: "Noto Serif TamilSlanted";
+  src: url("fonts/NotoSerifTamilSlanted-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifTamilSlanted-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
+}
+@font-face {
+  font-family: "Noto Serif Telugu";
+  src: url("fonts/NotoSerifTelugu-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifTelugu-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0C00-0C7F;
+}
+/*// The variable serif font for Thaana
+@font-face {
+	@include font-face-variable(Noto, Serif, Thaana, VF, Regular, normal, normal);
+	unicode-range: $thaana;
+}*/
+@font-face {
+  font-family: "Noto Serif Thai";
+  src: url("fonts/NotoSerifThai-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifThai-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0E00-0E7F;
+}
+@font-face {
+  font-family: "Noto Serif Tibetan";
+  src: url("fonts/NotoSerifTibetan-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifTibetan-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0F00-0FFF;
+}
+/*
+// The variable serif for Warang Citi
+@font-face {
+  @include font-face-variable(Noto, Serif, WarangCiti VF, Regular, normal, normal);
+  unicode-range: $warang-citi;
+}
+// Variable serif fonts for Zanzabar Square
+@font-face {
+	@include font-face-variable(Noto, Serif, ZanzabarSquare, VF, Regular, normal, normal);
+	unicode-range: $zanzabar;
+}
+*/

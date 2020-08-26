@@ -1,0 +1,47 @@
+// For static fonts, both sans and serif
+// Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
+@mixin font-face-static ($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
+	font-family: "#{$family} #{$type} #{$script}";
+	src:	url('fonts/#{$family}#{$type}#{$script}-#{$weight}-subset.woff2') format('woff2'),
+				url('fonts/#{$family}#{$type}#{$script}-#{$weight}-subset.woff') format('woff');
+				//url('fonts/#{$family}#{$type}#{$script}-#{$weight}.eot?#iefix') format('embedded-opentype'),
+				//url('fonts/#{$family}#{$type}#{$script}-#{$weight}.ttf') format('truetype');
+	font-weight: $fontWeight;
+	font-style: $fontStyle;
+	font-display: swap;
+}
+
+// for static 'UI' fonts
+// Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
+@mixin font-face-static-ui ($family: "Noto", $type: "Sans", $script: "Arabic", $weight: "Regular", $svgWeight: "Regular", $fontWeight: "normal", $fontStyle: "normal") {
+	font-family: "#{$family} #{$type} #{$script} UI";
+	src:	url('/#{$family}#{$type}#{$script}UI-#{$weight}-subset.woff2') format('woff2'),
+				url('/#{$family}#{$type}#{$script}UI-#{$weight}-subset.woff') format('woff');
+				//url('/#{$family}#{$type}#{$script}UI-#{$weight}.eot?#iefix') format('embedded-opentype'),
+				//url('/#{$family}#{$type}#{$script}UI-#{$weight}.ttf') format('truetype');
+	font-weight: $fontWeight;
+	font-style: $fontStyle;
+	font-display: swap;
+}
+
+// For variable sans fonts
+// Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
+@mixin font-face-variable ($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
+	font-family: "#{$family} #{$type} #{$script}";
+	src:	url("fonts/#{$family}#{$type}#{$script}-#{$weight}-subset.woff2") format('woff2'),
+				url("fonts/#{$family}#{$type}#{$script}-#{$weight}-subset.woff") format('woff');
+	font-weight: $fontWeight;
+	font-style: $fontStyle;
+	font-display: swap;
+}
+
+// For variable 'Ui' fonts'
+// Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
+@mixin font-face-variable-ui ($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
+	font-family: "#{$family} #{$type} #{$script} UI";
+	src:	url('fonts/#{$family}#{$type}#{$script}UI-#{$weight}-subset.woff2') format('woff2'),
+				url('fonts/#{$family}#{$type}#{$script}UI-#{$weight}-subset.woff') format('woff');
+	font-weight: $fontWeight;
+	font-style: $fontStyle;
+	font-display: swap;
+}

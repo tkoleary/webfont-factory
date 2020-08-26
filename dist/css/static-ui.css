@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Noto Sans Arabic UI";
+  src: url("/NotoSansArabicUI-Regular-subset.woff2") format("woff2"), url("/NotoSansArabicUI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
+}
+@font-face {
+  font-family: "Noto Sans Bengali UI";
+  src: url("/NotoSansBengaliUI-Regular-subset.woff2") format("woff2"), url("/NotoSansBengaliUI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0980-09FF;
+}
+@font-face {
+  font-family: "Noto Sans Devanagari UI";
+  src: url("/NotoSansDevanagariUI-Regular-subset.woff2") format("woff2"), url("/NotoSansDevanagariUI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0900-097F, U+A8E0-A8FF;
+}
+@font-face {
+  font-family: "Noto Sans Khmer UI";
+  src: url("/NotoSansKhmerUI-Regular-subset.woff2") format("woff2"), url("/NotoSansKhmerUI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1780-17FF, U+19E0-19FF;
+}
+@font-face {
+  font-family: "Noto Sans Kannada UI";
+  src: url("/NotoSansKannadaUI-Regular-subset.woff2") format("woff2"), url("/NotoSansKannadaUI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0C80-0CFF;
+}
+@font-face {
+  font-family: "Noto Sans Lao UI";
+  src: url("/NotoSansLaoUI-Regular-subset.woff2") format("woff2"), url("/NotoSansLaoUI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0E80-0EFF;
+}
+@font-face {
+  font-family: "Noto Sans Malayalam UI";
+  src: url("/NotoSansMalayalamUI-Regular-subset.woff2") format("woff2"), url("/NotoSansMalayalamUI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0D00-0D7F;
+}
+@font-face {
+  font-family: "Noto Sans Myanmar UI";
+  src: url("/NotoSansMyanmarUI-Regular-subset.woff2") format("woff2"), url("/NotoSansMyanmarUI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
+}
+@font-face {
+  font-family: "Noto Sans Naskh Arabic UI";
+  src: url("/NotoSansNaskh ArabicUI-Regular-subset.woff2") format("woff2"), url("/NotoSansNaskh ArabicUI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
+}
+@font-face {
+  font-family: "Noto Sans Oriya UI";
+  src: url("/NotoSansOriyaUI-Regular-subset.woff2") format("woff2"), url("/NotoSansOriyaUI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0B00-0B7F;
+}
+@font-face {
+  font-family: "Noto Sans Sinhala UI";
+  src: url("/NotoSansSinhalaUI-Regular-subset.woff2") format("woff2"), url("/NotoSansSinhalaUI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0D80-0DFF;
+}
+@font-face {
+  font-family: "Noto Sans Tamil UI";
+  src: url("/NotoSansTamilUI-Regular-subset.woff2") format("woff2"), url("/NotoSansTamilUI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
+}
+@font-face {
+  font-family: "Noto Sans Telugu UI";
+  src: url("/NotoSansTeluguUI-Regular-subset.woff2") format("woff2"), url("/NotoSansTeluguUI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0C00-0C7F;
+}
+@font-face {
+  font-family: "Noto Sans Thai UI";
+  src: url("/NotoSansThaiUI-Regular-subset.woff2") format("woff2"), url("/NotoSansThaiUI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0E00-0E7F;
+}
