@@ -1,3 +1,22 @@
+/*
+Argument 1: family (family name only), title case
+Argument 2: type, title case
+Argument 3: script, title case
+Argument 4: weight (name), title case eg. 'Regular', or uppercase for acronyms eg. 'VF'
+Argument 5: variation, title case, prepend '-'
+Argument 6: Subset, lowercase, prepend '-'
+Argument 7: fontWeight (property), Use title case, prepend '-'
+Argument 8: fontStyle (property), title case, prepend '-'
+Argument 9: fontDisplay (property), options: swap,
+Argument 10: unicodeRange (property), pass a global variable from unicode-ranges.scss
+Argument 11: webfontFamily (property), the full name including type, script, weight (if specified) and variation (if specified), title case
+
+Any value can be set to 'null'
+
+If you use this mixin for both variable fonts and their static fallbacks make sure webfontName is the same for each even though they reference different files.
+
+Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal, swap, cyrillic, Noto Sans Cyrillic);
+*/
 @font-face {
   font-family: "Noto Sans Arabic UI";
   src: url("fonts/NotoSansArabicUI-VF-subset.woff2") format("woff2"), url("fonts/NotoSansArabicUI-VF-subset.woff") format("woff");

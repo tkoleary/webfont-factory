@@ -2,6 +2,13 @@
 @import "unicode-ranges";
 @import "mixins";
 
+/*
+// Test
+@font-face {
+	@include font-face(Noto, Sans, Test, VF, null, -subset, normal, normal, swap, null, Noto Sans Test);
+	unicode-range: $latin;
+}*/
+
 // Arabic sans regular
 @font-face {
 	@include font-face-static(Noto, Sans, Arabic, Regular, Regular, normal, normal);
