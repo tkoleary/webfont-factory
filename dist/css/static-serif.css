@@ -18,24 +18,20 @@ If you use this mixin for both variable fonts and their static fallbacks make su
 Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal, swap, cyrillic, Noto Sans Cyrillic);
 */
 /*
-// Arabic Serif regular
-@font-face {
-	@include font-face-static(Noto, Serif, Arabic, Regular, Regular, normal, normal);
-	unicode-range: $arabic;
-}
 // Adlam Serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, Adlam, Regular, Regular, normal, normal);
-	unicode-range: $adlam;
+	@include font-face(Noto, Sans, Adlam, Regular, null, -subset, normal, normal, swap, $adlam, null));
 }
-*/
+// Arabic Serif regular
+@font-face {
+	@include font-face(Noto, Serif, Arabic, Regular, null, -subset, normal, normal, swap, $arabic, null);
+}*/
 @font-face {
   font-family: "Noto Serif Armenian";
   src: url("fonts/NotoSerifArmenian-Regular-subset.woff2") format("woff2"), url("fonts/NotoSerifArmenian-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0530-058F;
 }
 @font-face {
   font-family: "Noto Serif Balinese";
@@ -43,7 +39,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1B00-1B7F;
 }
 @font-face {
   font-family: "Noto Serif Bengali";
@@ -51,37 +46,30 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0980-09FF;
 }
 /*
 // Brahmi Serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, Brahmi, Regular, Regular, normal, normal);
-	unicode-range: $brahmi;
+	@include font-face(Noto, Serif, Brahmi, Regular, null, -subset, normal, normal, swap, $brahmi, null);
 }
 // Buginese Serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, Buginese, Regular, Regular, normal, normal);
-	unicode-range: $buginese;
+	@include font-face(Noto, Serif, Buginese, Regular, null, -subset, normal, normal, swap, $buginese, null);
 }
 // Buhid Serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, Buhid, Regular, Regular, normal, normal);
-	unicode-range: $buhid;
+	@include font-face(Noto, Serif, Buhid, Regular, null, -subset, normal, normal, swap, $buhid, null);
 }
 // Serif fonts for Unified Canadian Aboriginal
 @font-face {
-	@include font-face-static(Noto, Serif, CanadianAboriginal, Regular, Regular, normal, normal);
-	unicode-range: $c-aboriginal;
-}
-*/
+	@include font-face(Noto, Serif, CanadianAboriginal, Regular, null, -subset, normal, normal, swap, $c-aboriginal, null);
+}*/
 @font-face {
   font-family: "Noto Serif Devanagari";
   src: url("fonts/NotoSerifDevanagari-Regular-subset.woff2") format("woff2"), url("fonts/NotoSerifDevanagari-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0900-097F, U+A8E0-A8FF;
 }
 @font-face {
   font-family: "Noto Serif Ethiopic";
@@ -89,7 +77,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
 }
 @font-face {
   font-family: "Noto Serif Georgian";
@@ -97,7 +84,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+10A0-10FF, U+1C90-1CBF, U+2D00-2D2F;
 }
 @font-face {
   font-family: "Noto Serif Gujarati";
@@ -105,7 +91,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0A80-0AFF;
 }
 @font-face {
   font-family: "Noto Serif Gurmukhi";
@@ -113,22 +98,18 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0A00-0A7F;
 }
 /*
 // Hanunoo Serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, Hanunoo, Regular, Regular, normal, normal);
-	unicode-range: $hanunoo;
-}
-*/
+	@include font-face(Noto, Serif, Hanunoo, Regular, null, -subset, normal, normal, swap, $hanunoo, null);
+}*/
 @font-face {
   font-family: "Noto Serif Hebrew";
   src: url("fonts/NotoSerifHebrew-Regular-subset.woff2") format("woff2"), url("fonts/NotoSerifHebrew-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0590-05FF;
 }
 @font-face {
   font-family: "Noto Serif Kannada";
@@ -136,7 +117,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0C80-0CFF;
 }
 @font-face {
   font-family: "Noto Serif Khmer";
@@ -144,7 +124,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1780-17FF, U+19E0-19FF;
 }
 @font-face {
   font-family: "Noto Serif Lao";
@@ -152,7 +131,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0E80-0EFF;
 }
 @font-face {
   font-family: "Noto Serif Latin";
@@ -160,27 +138,22 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0100-017F, U+0180-024F, U+0370-03FF, U+0259-03C0, U+1E00-1EFF, U+2000-FB02;
 }
 /*
 // Limbu serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, Limbu, Regular, Regular, normal, normal);
-	unicode-range: $limbu;
+	@include font-face(Noto, Serif, Limbu, Regular, null, -subset, normal, normal, swap, $limbu, null);
 }
 // Lisu serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, Lisu, Regular, Regular, normal, normal);
-	unicode-range: $lisu;
-}
-*/
+	@include font-face(Noto, Serif, Lisu, Regular, null, -subset, normal, normal, swap, $lisu, null);
+}*/
 @font-face {
   font-family: "Noto Serif Malayalam";
   src: url("fonts/NotoSerifMalayalam-Regular-subset.woff2") format("woff2"), url("fonts/NotoSerifMalayalam-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0D00-0D7F;
 }
 @font-face {
   font-family: "Noto Serif Myanmar";
@@ -188,48 +161,39 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
 }
 /*
 // NKo Serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, NKo, Regular, Regular, normal, normal);
-	unicode-range: $nko;
+	@include font-face(Noto, Serif, NKo, Regular, null, -subset, normal, normal, swap, $nko, null);
 }
 // Oriya Serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, Oriya, Regular, Regular, normal, normal);
-	unicode-range: $oriya;
-}
-*/
+	@include font-face(Noto, Serif, Oriya, Regular, null, -subset, normal, normal, swap, $$oriya, null);
+}*/
 @font-face {
   font-family: "Noto Serif Sinhala";
   src: url("fonts/NotoSerifSinhala-Regular-subset.woff2") format("woff2"), url("fonts/NotoSerifSinhala-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0D80-0DFF;
 }
 /*
 // Tagalog Serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, Tagalog, Regular, Regular, normal, normal);
-	unicode-range: $tagalog;
+	@include font-face(Noto, Serif, Tagalog, Regular, null, -subset, normal, normal, swap, $tagalog, null);
 }
 // Tai Le Serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, TaiLe, Regular, Regular, normal, normal);
-	unicode-range: $tai-le;
+	@include font-face(Noto, Serif, TaiLe, Regular, null, -subset, normal, normal, swap, $tai-le, null);
 }
 // Tai Tham Serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, TaiTham, Regular, Regular, normal, normal);
-	unicode-range: $tai-tham;
+	@include font-face(Noto, Serif, TaiTham, Regular, null, -subset, normal, normal, swap, $tai-tham, null);
 }
 // Tai Viet Serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, TaiViet, Regular, Regular, normal, normal);
-	unicode-range: $tai-viet;
+	@include font-face(Noto, Serif, TaiViet, Regular, null, -subset, normal, normal, swap, $tai-viet, null);
 }*/
 @font-face {
   font-family: "Noto Serif Tamil";
@@ -237,7 +201,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 }
 @font-face {
   font-family: "Noto Serif TamilSlanted";
@@ -245,7 +208,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 }
 @font-face {
   font-family: "Noto Serif Telugu";
@@ -253,7 +215,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0C00-0C7F;
 }
 @font-face {
   font-family: "Noto Serif Thai";
@@ -261,7 +222,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0E00-0E7F;
 }
 @font-face {
   font-family: "Noto Serif Tibetan";
@@ -269,17 +229,14 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0F00-0FFF;
 }
 /*
-// Zanzabar Square Serif regular
+// Zanabazar Square Serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, ZanzabarSquare, Regular, Regular, normal, normal);
-	unicode-range: $zanzabar;
+	@include font-face(Noto, Serif, ZanabazarSquare, Regular, null, -subset, normal, normal, swap, $Zanabazar, null);
 }
 // Nushu Traditional regular
 @font-face {
-	@include font-face-static(Noto, Traditional, Nushu, Regular, Regular, normal, normal);
-	unicode-range: $nushu;
+	@include font-face(Noto, Traditional, Nushu, Regular, null, -subset, normal, normal, swap, $nushu, null);
 }
 */

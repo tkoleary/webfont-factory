@@ -23,7 +23,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1E900-1E95F, U+2E41;
 }
 @font-face {
   font-family: "Noto Sans Adlam";
@@ -31,7 +30,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1E900-1E95F, U+2E41;
 }
 @font-face {
   font-family: "Noto Sans Arabic";
@@ -39,7 +37,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
   font-family: "Noto Sans Armenian";
@@ -47,7 +44,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0530-058F;
 }
 @font-face {
   font-family: "Noto Sans Bamum";
@@ -55,7 +51,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+A6A0-A6FF, U+16800-16A3F;
 }
 @font-face {
   font-family: "Noto Sans Bengali";
@@ -63,7 +58,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0980-09FF;
 }
 @font-face {
   font-family: "Noto Sans Brahmi";
@@ -71,7 +65,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+11000-1107F;
 }
 @font-face {
   font-family: "Noto Sans Buginese";
@@ -79,7 +72,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1A00-1A1F;
 }
 @font-face {
   font-family: "Noto Sans Buhid";
@@ -87,7 +79,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1740-175F;
 }
 @font-face {
   font-family: "Noto Sans CanadianAboriginal";
@@ -95,7 +86,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1400-167F, U+18B0-18FF;
 }
 @font-face {
   font-family: "Noto Sans Cham";
@@ -103,7 +93,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+AA00-AA5F;
 }
 @font-face {
   font-family: "Noto Sans Cherokee";
@@ -111,7 +100,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+????;
 }
 @font-face {
   font-family: "Noto Sans LGC";
@@ -119,7 +107,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0400-04FF, U+0500-052F, U+1C80-1C8F;
 }
 @font-face {
   font-family: "Noto Sans Devanagari";
@@ -127,7 +114,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0900-097F, U+A8E0-A8FF;
 }
 @font-face {
   font-family: "Noto Sans Georgian";
@@ -135,7 +121,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+10A0-10FF, U+1C90-1CBF, U+2D00-2D2F;
 }
 @font-face {
   font-family: "Noto Sans Grantha";
@@ -143,7 +128,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+11300-1137F;
 }
 @font-face {
   font-family: "Noto Sans LGC";
@@ -151,23 +135,18 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0370-03FF, U+1F00-1FFF;
 }
+/*
+// Variable sans fonts for Gujarati
 @font-face {
-  font-family: "Noto Sans Gujarati";
-  src: url("fonts/NotoSansGujarati-VF-subset.woff2") format("woff2"), url("fonts/NotoSansGujarati-VF-subset.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  unicode-range: U+0A80-0AFF;
-}
+	@include font-face(Noto, Sans, Gujarati, VF, null, -subset, normal, normal, swap, $gujarati, null);
+}*/
 @font-face {
   font-family: "Noto Sans Gurmukhi";
   src: url("fonts/NotoSansGurmukhi-VF-subset.woff2") format("woff2"), url("fonts/NotoSansGurmukhi-VF-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0A00-0A7F;
 }
 @font-face {
   font-family: "Noto Sans Hebrew";
@@ -175,7 +154,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0590-05FF;
 }
 @font-face {
   font-family: "Noto Sans Kannada";
@@ -183,7 +161,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0C80-0CFF;
 }
 @font-face {
   font-family: "Noto Sans Khmer";
@@ -191,7 +168,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1780-17FF, U+19E0-19FF;
 }
 @font-face {
   font-family: "Noto Sans Lao";
@@ -199,7 +175,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0E80-0EFF;
 }
 @font-face {
   font-family: "Noto Sans Latin";
@@ -207,7 +182,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0100-017F, U+0180-024F, U+0370-03FF, U+0259-03C0, U+1E00-1EFF, U+2000-FB02;
 }
 @font-face {
   font-family: "Noto Sans Limbu";
@@ -215,7 +189,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1900-194F;
 }
 @font-face {
   font-family: "Noto Sans Lisu";
@@ -223,7 +196,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+A4D0-A4FF;
 }
 @font-face {
   font-family: "Noto Sans Malayalam";
@@ -231,13 +203,11 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0D00-0D7F;
 }
 /*
 // Variable Sans fonts for Mongolian
 @font-face {
-	@include font-face-variable(Noto, Sans, Mongolian, VF, Regular, normal, normal);
-	unicode-range: $mongolian;
+	@include font-face(Noto, Sans, Mongolian, VF, null, -subset, normal, normal, swap, $mongolian, null);
 }*/
 @font-face {
   font-family: "Noto Sans Myanmar";
@@ -245,7 +215,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
 }
 @font-face {
   font-family: "Noto Naskh Arabic";
@@ -253,13 +222,11 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 /*
 // Variable sans fonts for NKo
 @font-face {
-	@include font-face-variable(Noto, Sans, NKo, VF, Regular, normal, normal);
-	unicode-range: $nko;
+	@include font-face(Noto, Sans, NKo, VF, null, -subset, normal, normal, swap, $nushu, null);
 }*/
 @font-face {
   font-family: "Noto Sans Nushu";
@@ -267,7 +234,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1B170-1B2FF;
 }
 @font-face {
   font-family: "Noto Sans Oriya";
@@ -275,7 +241,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0B00-0B7F;
 }
 @font-face {
   font-family: "Noto Sans Sinhala";
@@ -283,7 +248,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0D80-0DFF;
 }
 @font-face {
   font-family: "Noto Sans Tagalog";
@@ -291,7 +255,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1700-171F;
 }
 @font-face {
   font-family: "Noto Sans TaiLe";
@@ -299,7 +262,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1950-197F;
 }
 @font-face {
   font-family: "Noto Sans TaiTham";
@@ -307,7 +269,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1A20-1AAF;
 }
 @font-face {
   font-family: "Noto Sans TaiViet";
@@ -315,7 +276,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+AA80-AADF;
 }
 @font-face {
   font-family: "Noto Sans Thaana";
@@ -323,7 +283,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0780-07BF;
 }
 @font-face {
   font-family: "Noto Sans Thai";
@@ -331,7 +290,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0E00-0E7F;
 }
 @font-face {
   font-family: "Noto Sans Takri";
@@ -339,7 +297,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+11680-116CF;
 }
 @font-face {
   font-family: "Noto Sans Telugu";
@@ -347,7 +304,6 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0C00-0C7F;
 }
 @font-face {
   font-family: "Noto Sans Tamil";
@@ -355,35 +311,28 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 }
+/*
+// Variable Sans fonts for Tamil Slanted
 @font-face {
-  font-family: "Noto Sans TamilSlanted";
-  src: url("fonts/NotoSansTamilSlanted-VF-subset.woff2") format("woff2"), url("fonts/NotoSansTamilSlanted-VF-subset.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
+	@include font-face(Noto, Sans, TamilSlanted, VF, null, -subset, normal, normal, swap, $tamil, null);
 }
 /*
 // The variable sans font for Tibetan
 @font-face {
-  @include font-face-variable(Noto, Sans, Tibetan, VF, Regular, normal, normal);
-  unicode-range: $tibetan;
-}*/
+  @include font-face(Noto, Sans, Tibetan, VF, null, -subset, normal, normal, swap, $tibetan, null);
+  }*/
 @font-face {
-  font-family: "Noto Sans WarangCiti VF";
-  src: url("fonts/NotoSansWarangCiti VF-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansWarangCiti VF-Regular-subset.woff") format("woff");
+  font-family: "Noto Sans WarangCiti VFnull";
+  src: url("fonts/NotoSansWarangCiti VF-subset-normal.woff2") format("woff2"), url("fonts/NotoSansWarangCiti VF-subset-normal.woff") format("woff");
   font-weight: normal;
-  font-style: "normal";
-  font-display: swap;
-  unicode-range: U+118A0-118FF;
+  font-style: swap;
+  font-display: U+118A0-118FF;
 }
 @font-face {
-  font-family: "Noto Sans ZanzabarSquare";
-  src: url("fonts/NotoSansZanzabarSquare-VF-subset.woff2") format("woff2"), url("fonts/NotoSansZanzabarSquare-VF-subset.woff") format("woff");
+  font-family: "Noto Sans ZanabazarSquare";
+  src: url("fonts/NotoSansZanabazarSquare-VF-subset.woff2") format("woff2"), url("fonts/NotoSansZanabazarSquare-VF-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+11A00-11A4F;
 }

@@ -162,7 +162,7 @@ glyphhanger --formats=woff2,woff --whitelist="U+0F00-0F" --subset=*.ttf
 warang-citi:
 glyphhanger --formats=woff2,woff --whitelist="U+118A0-118" --subset=*.ttf
 
-zanzabar:
+Zanabazar:
 glyphhanger --formats=woff2,woff --whitelist="U+11A00-11A4" --subset=*.ttf
 
 latin:

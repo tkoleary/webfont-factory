@@ -7,81 +7,67 @@
 
 // Variable sans UI fonts for Arabic
 @font-face {
-	@include font-face-variable-ui(Noto, Sans, Arabic, VF, Regular, normal, normal);
-	unicode-range: $arabic;
+	@include font-face(Noto, Sans, Arabic, VF, -UI, -subset, normal, normal, swap, $arabic, null);
 }
 // Variable sans UI fonts for Bangla (Bengali)
 @font-face {
-	@include font-face-variable-ui(Noto, Sans, Bengali, VF, Regular, normal, normal);
-	unicode-range: $bengali;
+	@include font-face(Noto, Sans, Bengali, VF, -UI, -subset, normal, normal, swap, $bengali, null);
 }
 // Variable sans UI fonts for Devanagari
 @font-face {
-	@include font-face-variable-ui(Noto, Sans, Devanagari, VF, Regular, normal, normal);
-	unicode-range: $devanagari;
+	@include font-face(Noto, Sans, Devanagari, VF, -UI, -subset, normal, normal, swap, $devanagari, null);
 }
+/*
 // Variable sans UI fonts for Gujarati
 @font-face {
-	@include font-face-variable-ui(Noto, Sans, Gujarati, VF, Regular, normal, normal);
-	unicode-range: $gujarati;
-}
+	@include font-face(Noto, Sans, Gujarati, VF, -UI, -subset, normal, normal, swap, $gujarati, null);
+}*/
 // Variable sans UI fonts for Gurmukhi
 @font-face {
-	@include font-face-variable-ui(Noto, Sans, Gurmukhi, VF, Regular, normal, normal);
-	unicode-range: $gurmukhi;
+	@include font-face(Noto, Sans, Gurmukhi, VF, -UI, -subset, normal, normal, swap, $gurmukhi, null);
 }
 // Variable sans UI fonts for Kannada
 @font-face {
-	@include font-face-variable-ui(Noto, Sans, Kannada, VF, Regular, normal, normal);
-	unicode-range: $kannada;
+	@include font-face(Noto, Sans, Kannada, VF, -UI, -subset, normal, normal, swap, $kannada, null);
 }
 // Variable sans UI fonts for Khmer
 @font-face {
-	@include font-face-variable-ui(Noto, Sans, Khmer, VF, Regular, normal, normal);
-	unicode-range: $khmer;
+	@include font-face(Noto, Sans, Khmer, VF, -UI, -subset, normal, normal, swap, $khmer, null);
 }
 // Variable sans UI fonts for Lao
 @font-face {
-	@include font-face-variable-ui(Noto, Sans, Lao, VF, Regular, normal, normal);
-	unicode-range: $lao;
+	@include font-face(Noto, Sans, Lao, VF, -UI, -subset, normal, normal, swap, $lao, null);
 }
 // Variable sans UI fonts for Malayalam
 @font-face {
-	@include font-face-variable-ui(Noto, Sans, Malayalam, VF, Regular, normal, normal);
-	unicode-range: $malayalam;
+	@include font-face(Noto, Sans, Malayalam, VF, -UI, -subset, normal, normal, swap, $malayalam, null);
 }
 // Variable sans UI fonts for Myanmar
 @font-face {
-	@include font-face-variable-ui(Noto, Sans, Myanmar, VF, Regular, normal, normal);
-	unicode-range: $myanmar;
+	@include font-face(Noto, Sans, Myanmar, VF, -UI, -subset, normal, normal, swap, $myanmar, null);
 }
 // Variable sans UI fonts for Naskh Arabic
 @font-face {
-	@include font-face-variable-ui(Noto, Naskh, Arabic, VF, Regular, normal, normal);
-	unicode-range: $arabic;
+	@include font-face(Noto, Naskh, Arabic, VF, -UI, -subset, normal, normal, swap, $arabic, null);
 }
 // Variable sans UI fonts for Oriya
 @font-face {
-	@include font-face-variable-ui(Noto, Sans, Oriya, VF, Regular, normal, normal);
-	unicode-range: $oriya;
+	@include font-face(Noto, Sans, Oriya, VF, -UI, -subset, normal, normal, swap, $oriya, null);
 }
+/*
 // The variable UI fonts for Sinhala
 @font-face {
-	@include font-face-variable-ui(Noto, Sans, Sinhala, VF, Regular, normal, normal);
-	unicode-range: $sinhala;
-}
+	@include font-face(Noto, Sans, Sinhala, VF, -UI, -subset, normal, normal, swap, $sinhala, null);
+}*/
 // The variable UI fonts for Tamil
 @font-face {
-	@include font-face-variable-ui(Noto, Sans, Tamil, VF, Regular, normal, normal);
-	unicode-range: $tamil;
+	@include font-face(Noto, Sans, Tamil, VF, -UI, -subset, normal, normal, swap, $tamil, null);
 }
 // The variable UI fonts for Telugu
 @font-face {
-	@include font-face-variable-ui(Noto, Sans, Telugu, VF, Regular, normal, normal);
-	unicode-range: $telugu;
+	@include font-face(Noto, Sans, Telugu, VF, -UI, -subset, normal, normal, swap, $telugu, null);
 }
 // The variable UI fonts for Thai
 @font-face {
-	@include font-face-variable-ui(Noto, Sans, Thai, VF, Regular, normal, normal);
-	unicode-range: $thai;
+	@include font-face(Noto, Sans, Thai, VF, -UI, -subset, normal, normal, swap, $thai, null);
 }

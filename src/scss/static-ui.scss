@@ -7,71 +7,57 @@
 
 // static sans UI fonts for Arabic
 @font-face {
-	@include font-face-static-ui(Noto, Sans, Arabic, Regular, Regular, normal, normal);
-	unicode-range: $arabic;
+	@include font-face(Noto, Sans, Arabic, Regular, -UI, -subset, normal, normal, swap, $arabic, null);
 }
 // static sans UI fonts for Bangla (Bengali)
 @font-face {
-	@include font-face-static-ui(Noto, Sans, Bengali, Regular, Regular, normal, normal);
-	unicode-range: $bengali;
+	@include font-face(Noto, Sans, Bengali, Regular, -UI, -subset, normal, normal, swap, $bengali, null);
 }
 // static sans UI fonts for Devanagari
 @font-face {
-	@include font-face-static-ui(Noto, Sans, Devanagari, Regular, Regular, normal, normal);
-	unicode-range: $devanagari;
+	@include font-face(Noto, Sans, Devanagari, Regular, -UI, -subset, normal, normal, swap, $devanagari, null);
 }
 // static sans UI fonts for Khmer
 @font-face {
-	@include font-face-static-ui(Noto, Sans, Khmer, Regular, Regular, normal, normal);
-	unicode-range: $khmer;
+	@include font-face(Noto, Sans, Khmer, Regular, -UI, -subset, normal, normal, swap, $khmer, null);
 }
 // static sans UI fonts for Kannada
 @font-face {
-	@include font-face-static-ui(Noto, Sans, Kannada, Regular, Regular, normal, normal);
-	unicode-range: $kannada;
+	@include font-face(Noto, Sans, Kannada, Regular, -UI, -subset, normal, normal, swap, $kannada, null);
 }
 // static sans UI fonts for Lao
 @font-face {
-	@include font-face-static-ui(Noto, Sans, Lao, Regular, Regular, normal, normal);
-	unicode-range: $lao;
+	@include font-face(Noto, Sans, Lao, Regular, -UI, -subset, normal, normal, swap, $lao, null);
 }
 // static sans UI fonts for Malayalam
 @font-face {
-	@include font-face-static-ui(Noto, Sans, Malayalam, Regular, Regular, normal, normal);
-	unicode-range: $malayalam;
+	@include font-face(Noto, Sans, Malayalam, Regular, -UI, -subset, normal, normal, swap, $malayalam, null);
 }
 // static sans UI fonts for Myanmar
 @font-face {
-	@include font-face-static-ui(Noto, Sans, Myanmar, Regular, Regular, normal, normal);
-	unicode-range: $myanmar;
+	@include font-face(Noto, Sans, Myanmar, Regular, -UI, -subset, normal, normal, swap, $myanmar, null);
 }
 // static sans UI fonts for Naskh Arabic
 @font-face {
-	@include font-face-static-ui(Noto, Sans, Naskh Arabic, Regular, Regular, normal, normal);
-	unicode-range: $arabic;
+	@include font-face(Noto, Sans, Naskh Arabic, Regular, -UI, -subset, normal, normal, swap, $arabic, null);
 }
 // static sans UI fonts for Oriya
 @font-face {
-	@include font-face-static-ui(Noto, Sans, Oriya, Regular, Regular, normal, normal);
-	unicode-range: $oriya;
+	@include font-face(Noto, Sans, Oriya, Regular, -UI, -subset, normal, normal, swap, $oriya, null);
 }
 // The static UI fonts for Sinhala
 @font-face {
-	@include font-face-static-ui(Noto, Sans, Sinhala, Regular, Regular, normal, normal);
-	unicode-range: $sinhala;
+	@include font-face(Noto, Sans, Sinhala, Regular, -UI, -subset, normal, normal, swap, $sinhala, null);
 }
 // The static UI fonts for Tamil
 @font-face {
-	@include font-face-static-ui(Noto, Sans, Tamil, Regular, Regular, normal, normal);
-	unicode-range: $tamil;
+	@include font-face(Noto, Sans, Tamil, Regular, -UI, -subset, normal, normal, swap, $tamil, null);
 }
 // The static UI fonts for Telugu
 @font-face {
-	@include font-face-static-ui(Noto, Sans, Telugu, Regular, Regular, normal, normal);
-	unicode-range: $telugu;
+	@include font-face(Noto, Sans, Telugu, Regular, -UI, -subset, normal, normal, swap, $telugu, null);
 }
 // The static UI fonts for Thai
 @font-face {
-	@include font-face-static-ui(Noto, Sans, Thai, Regular, Regular, normal, normal);
-	unicode-range: $thai;
+	@include font-face(Noto, Sans, Thai, Regular, -UI, -subset, normal, normal, swap, $thai, null);
 }
