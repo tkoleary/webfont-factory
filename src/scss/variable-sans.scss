@@ -79,6 +79,10 @@
 @font-face {
 	@include font-face(Noto, Sans, Gurmukhi, VF, null, -subset, normal, normal, swap, $gurmukhi, null);
 }
+// Variable sans fonts for Hanifi Rohingya
+@font-face {
+	@include font-face(Noto, Sans, Hanifi Rohingya, VF, null, -subset, normal, normal, swap, $hanifi-rohingya, null);
+}
 // Variable sans fonts for Hebrew
 @font-face {
 	@include font-face(Noto, Sans, Hebrew, VF, null, -subset, normal, normal, swap, $hebrew, null);

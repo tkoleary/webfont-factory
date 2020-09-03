@@ -149,6 +149,13 @@ Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal,
   font-display: swap;
 }
 @font-face {
+  font-family: "Noto Sans Hanifi Rohingya";
+  src: url("fonts/NotoSansHanifi Rohingya-VF-subset.woff2") format("woff2"), url("fonts/NotoSansHanifi Rohingya-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: "Noto Sans Hebrew";
   src: url("fonts/NotoSansHebrew-VF-subset.woff2") format("woff2"), url("fonts/NotoSansHebrew-VF-subset.woff") format("woff");
   font-weight: normal;

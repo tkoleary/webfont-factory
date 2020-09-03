@@ -10,11 +10,11 @@ $bamum:						U+A6A0-A6FF, U+16800-16A3F; // Bamum and supplement
 $bengali:					U+0980-09FF;
 $brahmi:					U+11000-1107F;
 $buginese:				U+1A00-1A1F;
-$buhid:						U+1740-175F;
+$buhid:						U+1740-175F, U+1735;
 $c-aboriginal:		U+1400-167F, U+18B0-18FF; // UCAS and extended
 $cham:						U+AA00-AA5F;
 $cherokee:				U+????; // U+13A0-13FF;
-$chinese:					U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF; // @todo add latin 1
+$chinese:					U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF, U+FF0C; // @todo add latin 1
 $cyrillic:				U+0400-04FF, U+0500-052F, U+1C80-1C8F;
 $devanagari:			U+0900-097F, U+A8E0-A8FF; // Devanagari and extended
 $elemaic:					U+10FE0-10FFF;
@@ -52,7 +52,7 @@ $tai-viet:				U+AA80-AADF;
 $takri:						U+11680-116CF;
 $tamil:						U+0B80-0BFF, U+11FC0-11FFF; // Tamil and supplement
 $telugu:					U+0C00-0C7F;
-$tagalog:					U+1700-171F;
+$tagalog:					U+1700-171F, U+1735;
 $thaana:					U+0780-07BF;
 $thai:						U+0E00-0E7F;
 $tibetan:					U+0F00-0FFF;

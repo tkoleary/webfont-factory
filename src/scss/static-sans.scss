@@ -1,7 +1,7 @@
 // Import the unicode-range variables
 @import "unicode-ranges";
 @import "mixins";
- 
+
 // Arabic sans regular
 @font-face {
 	@include font-face(Noto, Sans, Arabic, Regular, null, -subset, normal, normal, swap, $arabic, null);
@@ -58,6 +58,10 @@
 @font-face {
 	@include font-face(Noto, Sans, Gurmukhi, Regular, null, -subset, normal, normal, swap, $gurmukhi, null);
 	}
+// Hanifi Rohingya Sans Regular
+@font-face {
+	@include font-face(Noto, Sans, Hanifi Rohingya, Regular, null, -subset, normal, normal, swap, $hanifi-rohingya, null);
+}
 // Hanunoo sans regular
 @font-face {
 	@include font-face(Noto, Sans, Hanunoo, Regular, null, -subset, normal, normal, swap, $hanunoo, null);
