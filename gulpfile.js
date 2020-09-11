@@ -6,11 +6,13 @@ const flatten									= require('gulp-flatten');
 const clean										= require('gulp-clean');
 const rename									= require('gulp-rename');
 const autoprefixer						= require('gulp-autoprefixer');
+const spawn 									= require("gulp-spawn");
 
 sass.compiler									= require('dart-sass');
 
 var config = {
 	scss:								'./src/scss/**/**.scss',
+	ttfs:								['./src/fonts/**/**.ttf'],
 	fonts:							['./src/fonts/**/**.woff','./src/fonts/**/**.woff2', './src/fonts/**/**.eot'],
 	autoprefixerOptions: {
 		browsers:						['last 2 versions', '> 5%']
@@ -18,7 +20,6 @@ var config = {
 	build:							['./dist/', '!./'],
 	buildCss:						['./dist/css/'],
 	buildFonts:					['./dist/fonts/'],
-
 };
 
 // Clean out the folder for a new build
@@ -48,6 +49,22 @@ function compileSass(cb) {
 	cb();
 }
 
+// Not working yet
+function generateFonts(cb) {
+	return src(config.ttfs)
+	.pipe(spawn({
+		cmd: "yarn run glyphs"
+		//args: ["-", "-resize", "50%", "-"],
+		// optional
+		//opts: { cwd: "." },
+		//filename: function(base, ext) {
+		//	return base + "-half" + ext;
+		//}
+	}))
+	.pipe(dest(config.buildFonts))
+	cb();
+}
+
 // Move the fonts from their subfolders to one big folder
 function flattenFonts(cb) {
 	return src(config.fonts)
@@ -62,3 +79,4 @@ function watchScss(cb) {
 }
 
 task('default', series(wipeFonts, wipeCss, flattenFonts, watchScss));
+// task('fonts', series(generateFonts));

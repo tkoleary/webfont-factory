@@ -1,6 +1,6 @@
 {
 	"name": "webfont-factory",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "A local utility for building webfonts",
 	"scripts": {
 		"styles:build": "gulp"
@@ -33,10 +33,15 @@
 		"gulp-watch": "^5.0.1",
 		"normalize-scss": "^7.0.1",
 		"sass": "^1.26.10",
-		"sass-loader": "7.3.1"
+		"sass-loader": "7.3.1",
+		"cli-glob": "^0.1.0",
+		"gulp-spawn": "^0.4.5"
 	},
 	"files": [
 		"LICENSE",
-		"README.md"
+		"README.md",
+		"gulpfile.js",
+		"LICENSE",
+		"scripts.json"
 	]
 }

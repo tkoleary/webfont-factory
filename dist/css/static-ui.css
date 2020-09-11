@@ -1,117 +1,121 @@
 /*
-Argument 1: family (family name only), title case
-Argument 2: type, title case
-Argument 3: script, title case
-Argument 4: weight (name), title case eg. 'Regular', or uppercase for acronyms eg. 'VF'
-Argument 5: variation, title case, prepend '-'
-Argument 6: Subset, lowercase, prepend '-'
-Argument 7: fontWeight (property), Use title case, prepend '-'
-Argument 8: fontStyle (property), title case, prepend '-'
-Argument 9: fontDisplay (property), options: swap,
-Argument 10: unicodeRange (property), pass a global variable from unicode-ranges.scss
-Argument 11: webfontFamily (property), the full name including type, script, weight (if specified) and variation (if specified), title case
-
-Any value can be set to 'null'
-
-If you use this mixin for both variable fonts and their static fallbacks make sure webfontName is the same for each even though they reference different files.
-
-Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal, swap, cyrillic, Noto Sans Cyrillic);
+ * Argument 1: family (family name only), title case
+ * Argument 2: type, title case
+ * Argument 3: script, title case
+ * Argument 4: weight (name), title case eg. 'Regular', or uppercase for acronyms eg. 'VF'
+ * Argument 5: variation, title case, prepend '-'
+ * Argument 6: Subset, lowercase, prepend '-'
+ * Argument 7: fontWeight (property), Use title case, prepend '-'
+ * Argument 8: fontStyle (property), title case, prepend '-'
+ * Argument 9: fontDisplay (property), options: swap,
+ * Argument 10: unicodeRange (property), pass a global variable from unicode-ranges.scss
+ * Argument 11: webfontFamily (property), the full name including type, script, weight (if specified) and variation (if specified), title case
+ *
+ * Any value can be set to 'null'
+ *
+ * Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal, swap, cyrillic, null);
 */
 @font-face {
-  font-family: "Noto Sans Arabic";
+  font-family: "Noto Sans Arabic UI";
   src: url("fonts/NotoSansArabic-UI-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansArabic-UI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
-  font-family: "Noto Sans Bengali";
+  font-family: "Noto Sans Bengali UI";
   src: url("fonts/NotoSansBengali-UI-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansBengali-UI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+0980-09FF;
 }
 @font-face {
-  font-family: "Noto Sans Devanagari";
+  font-family: "Noto Sans Devanagari UI";
   src: url("fonts/NotoSansDevanagari-UI-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansDevanagari-UI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+0900-097F, U+A8E0-A8FF;
 }
 @font-face {
-  font-family: "Noto Sans Khmer";
+  font-family: "Noto Sans Khmer UI";
   src: url("fonts/NotoSansKhmer-UI-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansKhmer-UI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+1780-17FF, U+19E0-19FF;
 }
 @font-face {
-  font-family: "Noto Sans Kannada";
+  font-family: "Noto Sans Kannada UI";
   src: url("fonts/NotoSansKannada-UI-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansKannada-UI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+0C80-0CFF;
 }
 @font-face {
-  font-family: "Noto Sans Lao";
+  font-family: "Noto Sans Lao UI";
   src: url("fonts/NotoSansLao-UI-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansLao-UI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+0E80-0EFF;
 }
 @font-face {
-  font-family: "Noto Sans Malayalam";
+  font-family: "Noto Sans Malayalam UI";
   src: url("fonts/NotoSansMalayalam-UI-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansMalayalam-UI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+0D00-0D7F;
 }
 @font-face {
-  font-family: "Noto Sans Myanmar";
+  font-family: "Noto Sans Myanmar UI";
   src: url("fonts/NotoSansMyanmar-UI-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansMyanmar-UI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
 }
 @font-face {
-  font-family: "Noto Sans Naskh Arabic";
-  src: url("fonts/NotoSansNaskh Arabic-UI-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansNaskh Arabic-UI-Regular-subset.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Noto Sans Oriya";
+  font-family: "Noto Sans Oriya UI";
   src: url("fonts/NotoSansOriya-UI-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansOriya-UI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+0B00-0B7F;
 }
 @font-face {
-  font-family: "Noto Sans Sinhala";
+  font-family: "Noto Sans Sinhala UI";
   src: url("fonts/NotoSansSinhala-UI-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansSinhala-UI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+0D80-0DFF;
 }
 @font-face {
-  font-family: "Noto Sans Tamil";
+  font-family: "Noto Sans Tamil UI";
   src: url("fonts/NotoSansTamil-UI-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansTamil-UI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 }
 @font-face {
-  font-family: "Noto Sans Telugu";
+  font-family: "Noto Sans Telugu UI";
   src: url("fonts/NotoSansTelugu-UI-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansTelugu-UI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+0C00-0C7F;
 }
 @font-face {
-  font-family: "Noto Sans Thai";
+  font-family: "Noto Sans Thai UI";
   src: url("fonts/NotoSansThai-UI-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansThai-UI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+0E00-0E7F;
 }

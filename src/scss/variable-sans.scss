@@ -4,10 +4,6 @@
 
 // Variable sans fonts for Adlam
 @font-face {
-	@include font-face(Noto, Sans, AdlamUnjoined, VF, null, -subset, normal, normal, swap, $adlam, null);
-}
-// Variable Serif fonts for Adlam Unjoined
-@font-face {
 	@include font-face(Noto, Sans, Adlam, VF, null, -subset, normal, normal, swap, $adlam, null);
 }
 // Variable sans fonts for Arabic
@@ -81,7 +77,7 @@
 }
 // Variable sans fonts for Hanifi Rohingya
 @font-face {
-	@include font-face(Noto, Sans, Hanifi Rohingya, VF, null, -subset, normal, normal, swap, $hanifi-rohingya, null);
+	@include font-face(Noto, Sans, HanifiRohingya, VF, null, -subset, normal, normal, swap, $hanifi-rohingya, null);
 }
 // Variable sans fonts for Hebrew
 @font-face {
@@ -151,15 +147,15 @@
 }
 // Variable sans fonts for Tai Le
 @font-face {
-	@include font-face(Noto, Sans, TaiLe, VF, null, -subset, normal, normal, swap, $tai-le, null);
+	@include font-face(Noto, Sans, Tai, VF, null, -subset, normal, normal, swap, $tai-le, Le);
 }
 // Variable sans fonts for Tai Tham
 @font-face {
-	@include font-face(Noto, Sans, TaiTham, VF, null, -subset, normal, normal, swap, $tai-tham, null);
+	@include font-face(Noto, Sans, Tai, VF, null, -subset, normal, normal, swap, $tai-tham, Tham);
 }
 // Variable sans fonts for Tai Viet
 @font-face {
-	@include font-face(Noto, Sans, TaiViet, VF, null, -subset, normal, normal, swap, $tai-viet, null);
+	@include font-face(Noto, Sans, Tai, VF, null, -subset, normal, normal, swap, $tai-viet, Viet);
 }
 // Variable sans fonts for Thaana
 @font-face {
@@ -182,18 +178,13 @@
 	@include font-face(Noto, Sans, Tamil, VF, null, -subset, normal, normal, swap, $tamil, null);
 }
 /*
-// Variable Sans fonts for Tamil Slanted
-@font-face {
-	@include font-face(Noto, Sans, TamilSlanted, VF, null, -subset, normal, normal, swap, $tamil, null);
-}
-/*
 // The variable sans font for Tibetan
 @font-face {
   @include font-face(Noto, Sans, Tibetan, VF, null, -subset, normal, normal, swap, $tibetan, null);
   }*/
 // The variable Sans for Warang Citi
 @font-face {
-  @include font-face(Noto, Sans, WarangCiti VF, null, -subset, normal, normal, swap, $warang-citi, null);
+  @include font-face(Noto, Sans, Warang, VF, null, -subset, normal, normal, swap, $warang-citi, Citi);
   }
 // Variable sans fonts for Zanabazar Square
 @font-face {

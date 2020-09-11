@@ -1,0 +1,36 @@
+// Import the unicode-range variables
+@import "unicode-ranges";
+@import "mixins";
+
+// Arabic (Naskh) regular
+@font-face {
+	@include font-face(Noto, Naskh, Arabic, VF, null, -subset, normal, normal, swap, $arabic, null);
+}
+// Arabic (Kufi) regular
+@font-face {
+	@include font-face(Noto, Kufi, Arabic, VF, null, -subset, normal, normal, swap, $arabic, null);
+}
+
+/*
+// Nushu Traditional regular
+@font-face {
+	@include font-face(Noto, Nushu, Traditional, VF, null, -subset, normal, normal, swap, $nushu, null);
+} */
+
+// Variable fonts for Rashi Hebrew
+@font-face {
+	@include font-face(Noto, Rashi, Hebrew, VF, null, -subset, normal, normal, swap, $hebrew, null);
+}
+// Tamil slanted regular
+@font-face {
+	@include font-face(Noto, Serif, TamilSlanted, VF, null, -subset, normal, normal, swap, $tamil, null);
+}
+
+// Variable Serif fonts for Adlam Unjoined
+@font-face {
+	@include font-face(Noto, Sans, AdlamUnjoined, VF, null, -subset, normal, normal, swap, $adlam, null);
+}
+// Variable sans UI fonts for Naskh Arabic
+@font-face {
+	@include font-face(Noto, Naskh, Arabic, VF, UI, -subset, normal, normal, swap, $arabic, UI);
+}

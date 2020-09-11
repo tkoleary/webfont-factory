@@ -11,6 +11,7 @@
 @font-face {
 	@include font-face(Noto, Serif, Arabic, VF, null, -subset, normal, normal, swap, $arabic, null);
 }*/
+
 // Variable Serif fonts for Armenian
 @font-face {
 	@include font-face(Noto, Serif, Armenian, VF, null, -subset, normal, normal, swap, $armenian, null);
@@ -19,15 +20,18 @@
 @font-face {
 	@include font-face(Noto, Serif, Balinese, VF, null, -subset, normal, normal, swap, $balinese, null);
 }
+
 /*
 // Variable Serif fonts for Bamum
 @font-face {
 	@include font-face(Noto, Serif, Bamum, VF, null, -subset, normal, normal, swap, $bamum, null);
 }*/
+
 // Variable Serif fonts for Bengali
 @font-face {
 	@include font-face(Noto, Serif, Bengali, VF, null, -subset, normal, normal, swap, $bengali, null);
 }
+
 /*
 // Variable Serif fonts for Brahmi
 @font-face {
@@ -57,6 +61,7 @@
 @font-face {
 	@include font-face(Noto, Serif, LGC, VF, null, -subset, normal, normal, swap, $cyrillic, null);
 }*/
+
 // Variable Serif fonts for Devanagari (Hindi)
 @font-face {
 	@include font-face(Noto, Serif, Devanagari, VF, null, -subset, normal, normal, swap, $devanagari, null);
@@ -69,11 +74,13 @@
 @font-face {
 	@include font-face(Noto, Serif, Georgian, VF, null, -subset, normal, normal, swap, $georgian, null);
 }
+
 /*
 // Variable Serif fonts for Greek
 @font-face {
 	@include font-face(Noto, Serif, LGC, VF, null, -subset, normal, normal, swap, $greek, null);
 }*/
+
 // Variable serif fonts for Gujarati
 @font-face {
 	@include font-face(Noto, Serif, Gujarati, VF, null, -subset, normal, normal, swap, $gujarati, null);
@@ -102,11 +109,13 @@
 @font-face {
 	@include font-face(Noto, Serif, Latin, VF, null, -subset, normal, normal, swap, $latin, null);
 }
+
 /*
 // Variable Serif fonts for Limbu
 @font-face {
 	@include font-face(Noto, Serif, Limbu, VF, null, -subset, normal, normal, swap, , null);
 }*/
+
 // Variable Serif fonts for Lisu
 @font-face {
 	@include font-face(Noto, Serif, Lisu, VF, null, -subset, normal, normal, swap, $lisu, null);
@@ -115,15 +124,18 @@
 @font-face {
 	@include font-face(Noto, Serif, Malayalam, VF, null, -subset, normal, normal, swap, $malayalam, null);
 }
+
 /*
 // Variable Serif fonts for Mongolian
 @font-face {
 	@include font-face(Noto, Serif, Mongolian, VF, null, -subset, normal, normal, swap, , null);
 }*/
+
 // Variable Serif fonts for Myanmar
 @font-face {
 	@include font-face(Noto, Serif, Myanmar, VF, null, -subset, normal, normal, swap, $myanmar, null);
 }
+
 /*
 // Variable Serif fonts for NKo
 @font-face {
@@ -137,10 +149,12 @@
 @font-face {
 	@include font-face(Noto, Serif, Oriya, VF, null, -subset, normal, normal, swap, $oriya, null);
 }*/
+
 // Variable Serif fonts for Sinhala
 @font-face {
 	@include font-face(Noto, Serif, Sinhala, VF, null, -subset, normal, normal, swap, $sinhala, null);
 }
+
 /*
 // Variable Serif fonts for Tagalog
 @font-face {
@@ -162,23 +176,22 @@
 @font-face {
 	@include font-face(Noto, Serif, Takri, VF, null, -subset, normal, normal, swap, $takri, null);
 }*/
+
 // Variable serif fonts for Tamil
 @font-face {
 	@include font-face(Noto, Serif, Tamil, VF, null, -subset, normal, normal, swap, $tamil, null);
-}
-// Variable serif fonts for Tamil Slanted
-@font-face {
-	@include font-face(Noto, Serif, TamilSlanted, VF, null, -subset, normal, normal, swap, $tamil, null);
 }
 // Variable serif fonts for Telugu
 @font-face {
 	@include font-face(Noto, Serif, Telugu, VF, null, -subset, normal, normal, swap, $telugu, null);
 }
+
 /*
 // The variable serif font for Thaana
 @font-face {
 	@include font-face(Noto, Serif, Thaana, VF, null, -subset, normal, normal, swap, $thaana, null);
 }*/
+
 // The variable serif font for Thai
 @font-face {
 	@include font-face(Noto, Serif, Thai, VF, null, -subset, normal, normal, swap, $thai, null);
@@ -187,13 +200,14 @@
 @font-face {
   @include font-face(Noto, Serif, Tibetan, VF, null, -subset, normal, normal, swap, $tibetan, null);
 }
+
 /*
 // The variable serif for Warang Citi
 @font-face {
-  @include font-face(Noto, Serif, WarangCiti VF, null, -subset, normal, normal, swap, $warang-citi, null);
+  @include font-face(Noto, Serif, Warang, VF, null, -subset, normal, normal, swap, $warang-citi, Citi);
 }
 // Variable serif fonts for Zanabazar Square
 @font-face {
-	@include font-face(Noto, Serif, ZanabazarSquare, VF, null, -subset, normal, normal, swap, $Zanabazar, null);
+	@include font-face(Noto, Serif, Zanabazar, VF, null, -subset, normal, normal, swap, $Zanabazar, Square);
 }
 */
