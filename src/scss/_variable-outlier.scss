@@ -1,7 +1,3 @@
-// Import the unicode-range variables
-@import "unicode-ranges";
-@import "mixins";
-
 // Arabic (Naskh) regular
 @font-face {
 	@include font-face(Noto, Naskh, Arabic, VF, null, -subset, normal, normal, swap, $arabic, null);
