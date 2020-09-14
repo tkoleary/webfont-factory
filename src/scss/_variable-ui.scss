@@ -1,69 +1,48 @@
-// The variable UI versions of Noto web fonts
+// Variable UI fonts
+
 // UI fonts are optimized to fit in confined spaces like buttons and controls
 
-// Variable sans UI fonts for Arabic
-@font-face {
-	@include font-face(Noto, Sans, Arabic, VF, -UI, -subset, normal, normal, swap, $arabic, UI);
-}
-// Variable sans UI fonts for Bangla (Bengali)
-@font-face {
-	@include font-face(Noto, Sans, Bengali, VF, -UI, -subset, normal, normal, swap, $bengali, UI);
-}
-// Variable sans UI fonts for Devanagari
-@font-face {
-	@include font-face(Noto, Sans, Devanagari, VF, -UI, -subset, normal, normal, swap, $devanagari, UI);
-}
+// Arabic
+@font-face { @include font-face(Noto, Sans, Arabic, UI, -VF, -subset, 100 900, normal, swap, $arabic, $oneSpace, null); }
 
-/*
-// Variable sans UI fonts for Gujarati
-@font-face {
-	@include font-face(Noto, Sans, Gujarati, VF, -UI, -subset, normal, normal, swap, $gujarati, UI);
-}*/
+// Bangla (Bengali)
+@font-face { @include font-face(Noto, Sans, Bengali, UI, -VF, -subset, 100 900, normal, swap, $bengali, $oneSpace, null); }
 
-// Variable sans UI fonts for Gurmukhi
-@font-face {
-	@include font-face(Noto, Sans, Gurmukhi, VF, -UI, -subset, normal, normal, swap, $gurmukhi, UI);
-}
-// Variable sans UI fonts for Kannada
-@font-face {
-	@include font-face(Noto, Sans, Kannada, VF, -UI, -subset, normal, normal, swap, $kannada, UI);
-}
-// Variable sans UI fonts for Khmer
-@font-face {
-	@include font-face(Noto, Sans, Khmer, VF, -UI, -subset, normal, normal, swap, $khmer, UI);
-}
-// Variable sans UI fonts for Lao
-@font-face {
-	@include font-face(Noto, Sans, Lao, VF, -UI, -subset, normal, normal, swap, $lao, UI);
-}
-// Variable sans UI fonts for Malayalam
-@font-face {
-	@include font-face(Noto, Sans, Malayalam, VF, -UI, -subset, normal, normal, swap, $malayalam, UI);
-}
-// Variable sans UI fonts for Myanmar
-@font-face {
-	@include font-face(Noto, Sans, Myanmar, VF, -UI, -subset, normal, normal, swap, $myanmar, UI);
-}
-// Variable sans UI fonts for Oriya
-@font-face {
-	@include font-face(Noto, Sans, Oriya, VF, -UI, -subset, normal, normal, swap, $oriya, UI);
-}
+// Devanagari
+@font-face { @include font-face(Noto, Sans, Devanagari, UI, -VF, -subset, 100 900, normal, swap, $devanagari, $oneSpace, null); }
 
-/*
-// The variable UI fonts for Sinhala
-@font-face {
-	@include font-face(Noto, Sans, Sinhala, VF, -UI, -subset, normal, normal, swap, $sinhala, UI);
-}*/
+// Gujarati
+// @font-face { @include font-face(Noto, Sans, Gujarati, UI, -VF, -subset, 100 900, normal, swap, $gujarati, $oneSpace, null); }
 
-// The variable UI fonts for Tamil
-@font-face {
-	@include font-face(Noto, Sans, Tamil, VF, -UI, -subset, normal, normal, swap, $tamil, UI);
-}
-// The variable UI fonts for Telugu
-@font-face {
-	@include font-face(Noto, Sans, Telugu, VF, -UI, -subset, normal, normal, swap, $telugu, UI);
-}
-// The variable UI fonts for Thai
-@font-face {
-	@include font-face(Noto, Sans, Thai, VF, -UI, -subset, normal, normal, swap, $thai, UI);
-}
+// Gurmukhi
+@font-face { @include font-face(Noto, Sans, Gurmukhi, UI, -VF, -subset, 100 900, normal, swap, $gurmukhi, $oneSpace, null); }
+
+// Kannada
+@font-face { @include font-face(Noto, Sans, Kannada, UI, -VF, -subset, 100 900, normal, swap, $kannada, $oneSpace, null); }
+
+// Khmer
+@font-face { @include font-face(Noto, Sans, Khmer, UI, -VF, -subset, 100 900, normal, swap, $khmer, $oneSpace, null); }
+
+// Lao
+@font-face { @include font-face(Noto, Sans, Lao, UI, -VF, -subset, 100 900, normal, swap, $lao, $oneSpace, null); }
+
+// Malayalam
+@font-face { @include font-face(Noto, Sans, Malayalam, UI, -VF, -subset, 100 900, normal, swap, $malayalam, $oneSpace, null); }
+
+// Myanmar
+@font-face { @include font-face(Noto, Sans, Myanmar, UI, -VF, -subset, 100 900, normal, swap, $myanmar, $oneSpace, null); }
+
+// Oriya
+@font-face { @include font-face(Noto, Sans, Oriya, UI, -VF, -subset, 100 900, normal, swap, $oriya, $oneSpace, null); }
+
+// Sinhala
+// @font-face { @include font-face(Noto, Sans, Sinhala, UI, -VF, -subset, 100 900, normal, swap, $sinhala, $oneSpace, null); }
+
+// Tamil
+@font-face { @include font-face(Noto, Sans, Tamil, UI, -VF, -subset, 100 900, normal, swap, $tamil, $oneSpace, null); }
+
+// Telugu
+@font-face { @include font-face(Noto, Sans, Telugu, UI, -VF, -subset, 100 900, normal, swap, $telugu, $oneSpace, null); }
+
+// Thai
+@font-face { @include font-face(Noto, Sans, Thai, UI, -VF, -subset, 100 900, normal, swap, $thai, $oneSpace, null); }

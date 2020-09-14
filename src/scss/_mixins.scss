@@ -1,30 +1,30 @@
 // Mixin to ouput custom webfonts, both variable fonts and their static fallbacks
 
-/*
- * Argument 1: family (family name only), title case
- * Argument 2: type, title case
- * Argument 3: script, title case
- * Argument 4: weight (name), title case eg. 'Regular', or uppercase for acronyms eg. 'VF'
- * Argument 5: variation, title case, prepend '-'
- * Argument 6: Subset, lowercase, prepend '-'
- * Argument 7: fontWeight (property), Use title case, prepend '-'
- * Argument 8: fontStyle (property), title case, prepend '-'
- * Argument 9: fontDisplay (property), options: swap,
- * Argument 10: unicodeRange (property), pass a global variable from unicode-ranges.scss
- * Argument 11: webfontFamily (property), the full name including type, script, weight (if specified) and variation (if specified), title case
- *
- * Any value can be set to 'null'
- *
- * Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal, swap, cyrillic, null);
-*/
+// 1: 	family 					family name, title case
+// 2: 	type, 					title case
+// 3: 	script, 				title case
+// 4: 	weight					weight name, Options are 'Regular', 'Bold', or 'VF'
+// 5: 	suffix, 				title case, in the case of UI prepend '-'
+// 6: 	subset, 				lowercase, prepend '-'
+// 7: 	fontWeight 			font-weight property, Use title case, prepend '-'
+// 8: 	fontStyle				font-style property, title case, prepend '-'
+// 9: 	fontDisplay			font-display property, options: swap,
+// 10:	unicodeRange		unicode-range property, global variable from unicode-ranges.scss
+// 11:	space						optional space to insert when suffix is used without '-'
+// 12:	dash						optional dash to insert in file names
 
-@mixin font-face ($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $variation: "UI", $subset: "-subset", $fontWeight: "bold", $fontStyle: "normal", $fontDisplay: "swap", $unicodeRange: "cyrillic", $familySuffix: "null") {
-	font-family: '#{$family} #{$type} #{$script} #{$familySuffix}';
-	src:	url('fonts/#{$family}#{$type}#{$script}#{$variation}-#{$weight}#{$subset}.woff2') format('woff2'),
-				url('fonts/#{$family}#{$type}#{$script}#{$variation}-#{$weight}#{$subset}.woff') format('woff'),
-				//url('fonts/#{$family}#{$type}#{$script}#{$variation}-#{$weight}#{$subset}.eot?#iefix') format('embedded-opentype'),
-				//url('fonts/#{$family}#{$type}#{$script}#{$variation}-#{$weight}#{$subset}.ttf') format('truetype'),
-				//url('fonts/#{$family}#{$type}#{$script}#{$variation}#{$weight}#{$subset}.svg') format('svg'),
+// Any value can be set to 'null'
+// Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal, swap, cyrillic, null, null);
+$oneSpace: 	' ';
+$oneDash:		'-';
+
+@mixin font-face ($family: "Noto", $type: "Sans", $script: "Cyrillic", $suffix: "UI", $weight: "VF", $subset: "-subset", $fontWeight: "100 900", $fontStyle: "normal", $fontDisplay: "swap", $unicodeRange: "cyrillic", $space: $oneSpace, $dash: $oneDash) {
+	font-family: '#{$family} #{$type} #{$script}#{$space}#{$suffix}';
+	src:	url('fonts/#{$family}#{$type}#{$script}#{$dash}#{$suffix}#{$weight}#{$subset}.woff2') format('woff2'),
+				url('fonts/#{$family}#{$type}#{$script}#{$dash}#{$suffix}#{$weight}#{$subset}.woff') format('woff'),
+				//url('fonts/#{$family}#{$type}#{$script}#{$dash}#{$suffix}#{$weight}#{$subset}.eot?#iefix') format('embedded-opentype'),
+				//url('fonts/#{$family}#{$type}#{$script}#{$dash}#{$suffix}#{$weight}#{$subset}.ttf') format('truetype'),
+				//url('fonts/#{$family}#{$type}#{$script}#{$dash}#{$suffix}#{$weight}#{$subset}.svg') format('svg'),
 				;
 	font-weight: $fontWeight;
 	font-style: $fontStyle;

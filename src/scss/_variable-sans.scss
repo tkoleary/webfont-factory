@@ -1,188 +1,139 @@
-// Variable sans fonts for Adlam
-@font-face {
-	@include font-face(Noto, Sans, Adlam, VF, null, -subset, normal, normal, swap, $adlam, null);
-}
-// Variable sans fonts for Arabic
-@font-face {
-	@include font-face(Noto, Sans, Arabic, VF, null, -subset, normal, normal, swap, $arabic, null);
-}
-// Variable sans fonts for Armenian
-@font-face {
-	@include font-face(Noto, Sans, Armenian, VF, null, -subset, normal, normal, swap, $armenian, null);
-}
-// Variable sans fonts for Bamum
-@font-face {
-	@include font-face(Noto, Sans, Bamum, VF, null, -subset, normal, normal, swap, $bamum, null);
-}
-// Variable sans fonts for Bengali
-@font-face {
-	@include font-face(Noto, Sans, Bengali, VF, null, -subset, normal, normal, swap, $bengali, null);
-}
-// Variable Sans fonts for Brahmi
-@font-face {
-	@include font-face(Noto, Sans, Brahmi, VF, null, -subset, normal, normal, swap, $brahmi, null);
-}
-// Variable Sans fonts for Buginese
-@font-face {
-	@include font-face(Noto, Sans, Buginese, VF, null, -subset, normal, normal, swap, $buginese, null);
-}
-// Variable Sans fonts for Buhid
-@font-face {
-	@include font-face(Noto, Sans, Buhid, VF, null, -subset, normal, normal, swap, $buhid, null);
-}
-// Variable sans fonts for Unified Canadian Aboriginal
-@font-face {
-	@include font-face(Noto, Sans, CanadianAboriginal, VF, null, -subset, normal, normal, swap, $c-aboriginal, null);
-}
-// Variable Sans fonts for Cham
-@font-face {
-	@include font-face(Noto, Sans, Cham, VF, null, -subset, normal, normal, swap, $cham, null);
-}
-// Variable sans fonts for Cherokee
-@font-face {
-	@include font-face(Noto, Sans, Cherokee, VF, null, -subset, normal, normal, swap, $cherokee, null);
-}
-// Variable sans fonts for Cyrillic
-@font-face {
-	@include font-face(Noto, Sans, LGC, VF, null, -subset, normal, normal, swap, $cyrillic, null);
-}
-// Variable sans fonts for Devanagari (Hindi)
-@font-face {
-	@include font-face(Noto, Sans, Devanagari, VF, null, -subset, normal, normal, swap, $devanagari, null);
-}
-// Variable Sans fonts for Georgian
-@font-face {
-	@include font-face(Noto, Sans, Georgian, VF, null, -subset, normal, normal, swap, $georgian, null);
-}
-// Variable Sans fonts for Grantha
-@font-face {
-	@include font-face(Noto, Sans, Grantha, VF, null, -subset, normal, normal, swap, $grantha, null);
-}
-// Variable sans fonts for Greek
-@font-face {
-	@include font-face(Noto, Sans, LGC, VF, null, -subset, normal, normal, swap, $greek, null);
-}
-/*
-// Variable sans fonts for Gujarati
-@font-face {
-	@include font-face(Noto, Sans, Gujarati, VF, null, -subset, normal, normal, swap, $gujarati, null);
-}*/
-// Variable sans fonts for Gurmukhi
-@font-face {
-	@include font-face(Noto, Sans, Gurmukhi, VF, null, -subset, normal, normal, swap, $gurmukhi, null);
-}
-// Variable sans fonts for Hanifi Rohingya
-@font-face {
-	@include font-face(Noto, Sans, HanifiRohingya, VF, null, -subset, normal, normal, swap, $hanifi-rohingya, null);
-}
-// Variable sans fonts for Hebrew
-@font-face {
-	@include font-face(Noto, Sans, Hebrew, VF, null, -subset, normal, normal, swap, $hebrew, null);
-}
-// Variable sans fonts for Kannada
-@font-face {
-	@include font-face(Noto, Sans, Kannada, VF, null, -subset, normal, normal, swap, $kannada, null);
-}
-// The Variable sans font for Khmer
-@font-face {
-	@include font-face(Noto, Sans, Khmer, VF, null, -subset, normal, normal, swap, $khmer, null);
-}
-// Variable sans fonts for Lao
-@font-face {
-	@include font-face(Noto, Sans, Lao, VF, null, -subset, normal, normal, swap, $lao, null);
-}
-// Variable sans fonts for Latin
-@font-face {
-	@include font-face(Noto, Sans, Latin, VF, null, -subset, normal, normal, swap, $latin, null);
-}
-// Variable sans fonts for Limbu
-@font-face {
-	@include font-face(Noto, Sans, Limbu, VF, null, -subset, normal, normal, swap, $limbu, null);
-}
-// Variable sans fonts for Lisu
-@font-face {
-	@include font-face(Noto, Sans, Lisu, VF, null, -subset, normal, normal, swap, $lisu, null);
-}
-// Variable sans fonts for Malayalam
-@font-face {
-	@include font-face(Noto, Sans, Malayalam, VF, null, -subset, normal, normal, swap, $malayalam, null);
-}
-/*
-// Variable Sans fonts for Mongolian
-@font-face {
-	@include font-face(Noto, Sans, Mongolian, VF, null, -subset, normal, normal, swap, $mongolian, null);
-}*/
-// Variable sans fonts for Myanmar
-@font-face {
-	@include font-face(Noto, Sans, Myanmar, VF, null, -subset, normal, normal, swap, $myanmar, null);
-}
-// Variable fonts for Naskh Arabic
-@font-face {
-	@include font-face(Noto, Naskh, Arabic, VF, null, -subset, normal, normal, swap, $arabic, null);
-}
-/*
-// Variable sans fonts for NKo
-@font-face {
-	@include font-face(Noto, Sans, NKo, VF, null, -subset, normal, normal, swap, $nushu, null);
-}*/
-// Variable Sans fonts for Nushu
-@font-face {
-	@include font-face(Noto, Sans, Nushu, VF, null, -subset, normal, normal, swap, $nushu, null);
-}
-// Variable sans fonts for Oriya
-@font-face {
-	@include font-face(Noto, Sans, Oriya, VF, null, -subset, normal, normal, swap, $oriya, null);
-}
-// Variable sans fonts for Sinhala
-@font-face {
-	@include font-face(Noto, Sans, Sinhala, VF, null, -subset, normal, normal, swap, $sinhala, null);
-}
-// Variable Sans fonts for Tagalog
-@font-face {
-	@include font-face(Noto, Sans, Tagalog, VF, null, -subset, normal, normal, swap, $tagalog, null);
-}
-// Variable sans fonts for Tai Le
-@font-face {
-	@include font-face(Noto, Sans, Tai, VF, null, -subset, normal, normal, swap, $tai-le, Le);
-}
-// Variable sans fonts for Tai Tham
-@font-face {
-	@include font-face(Noto, Sans, Tai, VF, null, -subset, normal, normal, swap, $tai-tham, Tham);
-}
-// Variable sans fonts for Tai Viet
-@font-face {
-	@include font-face(Noto, Sans, Tai, VF, null, -subset, normal, normal, swap, $tai-viet, Viet);
-}
-// Variable sans fonts for Thaana
-@font-face {
-	@include font-face(Noto, Sans, Thaana, VF, null, -subset, normal, normal, swap, $thaana, null);
-}
-// The variable sans font for Thai
-@font-face {
-	@include font-face(Noto, Sans, Thai, VF, null, -subset, normal, normal, swap, $thai, null);
-}
-// Variable Sans fonts for Takri
-@font-face {
-	@include font-face(Noto, Sans, Takri, VF, null, -subset, normal, normal, swap, $takri, null);
-}
-// Variable sans fonts for Telugu
-@font-face {
-	@include font-face(Noto, Sans, Telugu, VF, null, -subset, normal, normal, swap, $telugu, null);
-}
-// Variable sans fonts for Tamil
-@font-face {
-	@include font-face(Noto, Sans, Tamil, VF, null, -subset, normal, normal, swap, $tamil, null);
-}
-/*
-// The variable sans font for Tibetan
-@font-face {
-  @include font-face(Noto, Sans, Tibetan, VF, null, -subset, normal, normal, swap, $tibetan, null);
-  }*/
-// The variable Sans for Warang Citi
-@font-face {
-  @include font-face(Noto, Sans, Warang, VF, null, -subset, normal, normal, swap, $warang-citi, Citi);
-  }
-// Variable sans fonts for Zanabazar Square
-@font-face {
-	@include font-face(Noto, Sans, ZanabazarSquare, VF, null, -subset, normal, normal, swap, $Zanabazar, null);
-}
+// Variable sans fonts
+
+// Adlam
+@font-face { @include font-face(Noto, Sans, Adlam, null, -VF, -subset, 100 900, normal, swap, $adlam, null, null); }
+
+// Arabic
+@font-face { @include font-face(Noto, Sans, Arabic, null, -VF, -subset, 100 900, normal, swap, $arabic, null, null); }
+
+// Armenian
+@font-face { @include font-face(Noto, Sans, Armenian, null, -VF, -subset, 100 900, normal, swap, $armenian, null, null); }
+
+// Bamum
+@font-face { @include font-face(Noto, Sans, Bamum, null, -VF, -subset, 100 900, normal, swap, $bamum, null, null); }
+
+// Bengali
+@font-face { @include font-face(Noto, Sans, Bengali, null, -VF, -subset, 100 900, normal, swap, $bengali, null, null); }
+
+// Brahmi
+@font-face { @include font-face(Noto, Sans, Brahmi, null, -VF, -subset, 100 900, normal, swap, $brahmi, null, null); }
+
+// Buginese
+@font-face { @include font-face(Noto, Sans, Buginese, null, -VF, -subset, 100 900, normal, swap, $buginese, null, null); }
+
+// Buhid
+@font-face { @include font-face(Noto, Sans, Buhid, null, -VF, -subset, 100 900, normal, swap, $buhid, null, null); }
+
+// Unified Canadian Aboriginal
+@font-face { @include font-face(Noto, Sans, Canadian, Aboriginal, -VF, -subset, 100 900, normal, swap, $c-aboriginal, $oneSpace, null); }
+
+// Cham
+@font-face { @include font-face(Noto, Sans, Cham, null, -VF, -subset, 100 900, normal, swap, $cham, null, null); }
+
+// Cherokee
+@font-face { @include font-face(Noto, Sans, Cherokee, null, -VF, -subset, 100 900, normal, swap, $cherokee, null, null); }
+
+// Cyrillic
+@font-face { @include font-face(Noto, Sans, LGC, null, -VF, -subset, 100 900, normal, swap, $cyrillic, null, null); }
+
+// Devanagari (Hindi)
+@font-face { @include font-face(Noto, Sans, Devanagari, null, -VF, -subset, 100 900, normal, swap, $devanagari, null, null); }
+
+// Georgian
+@font-face { @include font-face(Noto, Sans, Georgian, null, -VF, -subset, 100 900, normal, swap, $georgian, null, null); }
+
+// Grantha
+@font-face { @include font-face(Noto, Sans, Grantha, null, -VF, -subset, 100 900, normal, swap, $grantha, null, null); }
+
+// Greek
+@font-face { @include font-face(Noto, Sans, LGC, null, -VF, -subset, 100 900, normal, swap, $greek, null, null); }
+
+// Gujarati
+// @font-face { @include font-face(Noto, Sans, Gujarati, null, -VF, -subset, 100 900, normal, swap, $gujarati, null, null); }
+
+// Gurmukhi
+@font-face { @include font-face(Noto, Sans, Gurmukhi, null, -VF, -subset, 100 900, normal, swap, $gurmukhi, null, null); }
+
+// Hanifi Rohingya
+@font-face { @include font-face(Noto, Sans, Hanifi, Rohingya, -VF, -subset, 100 900, normal, swap, $hanifi-rohingya, $oneSpace, null); }
+
+// Hebrew
+@font-face { @include font-face(Noto, Sans, Hebrew, null, -VF, -subset, 100 900, normal, swap, $hebrew, null, null); }
+
+// Kannada
+@font-face { @include font-face(Noto, Sans, Kannada, null, -VF, -subset, 100 900, normal, swap, $kannada, null, null); }
+
+// Khmer
+@font-face { @include font-face(Noto, Sans, Khmer, null, -VF, -subset, 100 900, normal, swap, $khmer, null, null); }
+
+// Lao
+@font-face { @include font-face(Noto, Sans, Lao, null, -VF, -subset, 100 900, normal, swap, $lao, null, null); }
+
+// Latin
+@font-face { @include font-face(Noto, Sans, Latin, null, -VF, -subset, 100 900, normal, swap, $latin, null, null); }
+
+// Limbu
+@font-face { @include font-face(Noto, Sans, Limbu, null, -VF, -subset, 100 900, normal, swap, $limbu, null, null); }
+
+// Lisu
+@font-face { @include font-face(Noto, Sans, Lisu, null, -VF, -subset, 100 900, normal, swap, $lisu, null, null); }
+
+// Malayalam
+@font-face { @include font-face(Noto, Sans, Malayalam, null, -VF, -subset, 100 900, normal, swap, $malayalam, null, null); }
+
+// Mongolian
+// @font-face { @include font-face(Noto, Sans, Mongolian, null, -VF, -subset, 100 900, normal, swap, $mongolian, null, null); }
+
+// Myanmar
+@font-face { @include font-face(Noto, Sans, Myanmar, null, -VF, -subset, 100 900, normal, swap, $myanmar, null, null); }
+
+// Naskh Arabic
+@font-face { @include font-face(Noto, Naskh, Arabic, null, -VF, -subset, 100 900, normal, swap, $arabic, null, null); }
+
+// NKo
+// @font-face { @include font-face(Noto, Sans, NKo, null, -VF, -subset, 100 900, normal, swap, $nushu, null, null); }
+
+// Nushu
+@font-face { @include font-face(Noto, Sans, Nushu, null, -VF, -subset, 100 900, normal, swap, $nushu, null, null); }
+
+// Oriya
+@font-face { @include font-face(Noto, Sans, Oriya, null, -VF, -subset, 100 900, normal, swap, $oriya, null, null); }
+
+// Sinhala
+@font-face { @include font-face(Noto, Sans, Sinhala, null, -VF, -subset, 100 900, normal, swap, $sinhala, null, null); }
+
+// Tagalog
+@font-face { @include font-face(Noto, Sans, Tagalog, null, -VF, -subset, 100 900, normal, swap, $tagalog, null, null); }
+
+// Tai Le
+@font-face { @include font-face(Noto, Sans, Tai, Le, -VF, -subset, 100 900, normal, swap, $tai-le, $oneSpace, null); }
+
+// Tai Tham
+@font-face { @include font-face(Noto, Sans, Tai, Tham, -VF, -subset, 100 900, normal, swap, $tai-tham, $oneSpace, null); }
+
+// Tai Viet
+@font-face { @include font-face(Noto, Sans, Tai, Viet, -VF, -subset, 100 900, normal, swap, $tai-viet, $oneSpace, null); }
+
+// Thaana
+@font-face { @include font-face(Noto, Sans, Thaana, null, -VF, -subset, 100 900, normal, swap, $thaana, null, null); }
+
+// Thai
+@font-face { @include font-face(Noto, Sans, Thai, null, -VF, -subset, 100 900, normal, swap, $thai, null, null); }
+
+// Takri
+@font-face { @include font-face(Noto, Sans, Takri, null, -VF, -subset, 100 900, normal, swap, $takri, null, null); }
+
+// Telugu
+@font-face { @include font-face(Noto, Sans, Telugu, null, -VF, -subset, 100 900, normal, swap, $telugu, null, null); }
+
+// Tamil
+@font-face { @include font-face(Noto, Sans, Tamil, null, -VF, -subset, 100 900, normal, swap, $tamil, null, null); }
+
+// Tibetan
+// @font-face { @include font-face(Noto, Sans, Tibetan, null, -VF, -subset, 100 900, normal, swap, $tibetan, null, null); }
+
+//  Warang Citi
+@font-face { @include font-face(Noto, Sans, Warang, Citi, -VF, -subset, 100 900, normal, swap, $warang-citi, $oneSpace, null); }
+
+// Zanabazar Square
+@font-face { @include font-face(Noto, Sans, Zanabazar, Square, -VF, -subset, 100 900, normal, swap, $Zanabazar, $oneSpace, null); }
