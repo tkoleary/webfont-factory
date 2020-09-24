@@ -11,20 +11,20 @@
 // 9: 	fontDisplay			font-display property, options: swap,
 // 10:	unicodeRange		unicode-range property, global variable from unicode-ranges.scss
 // 11:	space						optional space to insert when suffix is used without '-'
-// 12:	dash						optional dash to insert in file names
+// 12:	dash						optional dash after script (used for -Italic)
 
 // Any value can be set to 'null'
 // Example: @include font-face(Noto, Sans, Cyrillic, VF, UI, -subset, bold, normal, swap, cyrillic, null, null);
 $oneSpace: 	' ';
 $oneDash:		'-';
 
-@mixin font-face ($family: "Noto", $type: "Sans", $script: "Cyrillic", $suffix: "UI", $weight: "VF", $subset: "-subset", $fontWeight: "100 900", $fontStyle: "normal", $fontDisplay: "swap", $unicodeRange: "cyrillic", $space: $oneSpace, $dash: $oneDash) {
+@mixin font-face ($family: "Noto", $type: "Sans", $script: "Cyrillic", $suffix: "UI", $weight: "-VF", $subset: "-subset", $fontWeight: "100 900", $fontStyle: "normal", $fontDisplay: "swap", $unicodeRange: "cyrillic", $space: $oneSpace, $dash: $oneDash) {
 	font-family: '#{$family} #{$type} #{$script}#{$space}#{$suffix}';
 	src:	url('fonts/#{$family}#{$type}#{$script}#{$dash}#{$suffix}#{$weight}#{$subset}.woff2') format('woff2'),
 				url('fonts/#{$family}#{$type}#{$script}#{$dash}#{$suffix}#{$weight}#{$subset}.woff') format('woff'),
-				//url('fonts/#{$family}#{$type}#{$script}#{$dash}#{$suffix}#{$weight}#{$subset}.eot?#iefix') format('embedded-opentype'),
-				//url('fonts/#{$family}#{$type}#{$script}#{$dash}#{$suffix}#{$weight}#{$subset}.ttf') format('truetype'),
-				//url('fonts/#{$family}#{$type}#{$script}#{$dash}#{$suffix}#{$weight}#{$subset}.svg') format('svg'),
+				// url('fonts/#{$family}#{$type}#{$script}#{$dash}#{$suffix}#{$weight}#{$subset}.eot?#iefix') format('embedded-opentype'),
+				// url('fonts/#{$family}#{$type}#{$script}#{$dash}#{$suffix}#{$weight}#{$subset}.ttf') format('truetype'),
+				// url('fonts/#{$family}#{$type}#{$script}#{$dash}#{$suffix}#{$weight}#{$subset}.svg') format('svg'),
 				;
 	font-weight: $fontWeight;
 	font-style: $fontStyle;

@@ -15,8 +15,11 @@
 // Latin Serif Italic regular
 @font-face { @include font-face(Noto, Serif, Latin, Italic, null, -subset, normal, normal, swap, $latin,  $oneSpace, $oneDash); }
 
+// Latin Mono regular
+@font-face { @include font-face(Noto, Sans, Latin, Mono, null, -subset, normal, normal, swap, $latin,  $oneSpace, null); }
+
 // Nushu Traditional regular
-//@font-face { @include font-face(Noto, Sans, Nushu, Traditional, -Regular, -subset, normal, normal, swap, $nushu, $oneSpace, null); }
+@font-face { @include font-face(Noto, Traditional, Nushu, null, -Regular, -subset, normal, normal, swap, $nushu, null, null); }
 
 // Tamil slanted regular
 @font-face { @include font-face(Noto, Serif, Tamil, Slanted, -Regular, -subset, normal, normal, swap, $tamil, $oneSpace, null); }

@@ -39,9 +39,6 @@
 	},
 	"files": [
 		"LICENSE",
-		"README.md",
-		"gulpfile.js",
-		"LICENSE",
-		"scripts.json"
+		"dist"
 	]
 }

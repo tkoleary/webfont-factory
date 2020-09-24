@@ -18,6 +18,9 @@
 // Latin Serif Italic -VF
 // @font-face { @include font-face(Noto, Serif, Latin, Italic, -VF, -subset, 100 900, normal, swap, $latin, $oneSpace, null); }
 
+// Latin Mono -VF
+@font-face { @include font-face(Noto, Sans, Latin, Mono, -VF, -subset, 100 900, normal, swap, $latin, $oneSpace, null); }
+
 // Tamil slanted regular
 @font-face { @include font-face(Noto, Serif, Tamil, Slanted, -VF, -subset, 100 900, normal, swap, $tamil, $oneSpace, null); }
 
