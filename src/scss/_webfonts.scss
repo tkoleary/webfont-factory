@@ -1,0 +1,22 @@
+// All webfonts
+
+// When using webfont-factory as a node module in another project like Lingua
+// import this file into that project and add the variables below to your style.scss there
+
+// Change this variable if you need to locate fonts in a different place in your environment
+// $font-path: "fonts/";
+
+// Change this variable to set a different font display property for all webfonts
+// $global-font-display: swap;
+
+@import "unicode-ranges";
+@import "mixins";
+
+@import "static-outlier";
+@import "static-sans";
+@import "static-serif";
+@import "static-ui";
+@import "variable-outlier";
+@import "variable-sans";
+@import "variable-serif";
+@import "variable-ui";

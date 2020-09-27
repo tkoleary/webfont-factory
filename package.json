@@ -20,7 +20,6 @@
 	},
 	"LICENSE": "MIT",
 	"devDependencies": {
-		"dart-sass": "^1.25.0",
 		"gulp": "^4.0.2",
 		"gulp-autoprefixer": "^7.0.1",
 		"gulp-clean": "^0.4.0",
@@ -31,11 +30,21 @@
 		"gulp-sass": "^4.1.0",
 		"gulp-sourcemaps": "^2.6.5",
 		"gulp-watch": "^5.0.1",
-		"normalize-scss": "^7.0.1",
-		"sass": "^1.26.10",
+		"normalize-scss": "^7.0.1", 
+		"dart-sass": "^1.25.0",
 		"sass-loader": "7.3.1",
+		"webpack": "^4.44.1",
 		"cli-glob": "^0.1.0",
 		"gulp-spawn": "^0.4.5"
+	},
+	"scripts": {
+		"glyph": "glyphhanger",
+		"fomats": "--formats=woff2,woff",
+		"goto": "cd src/fonts/noto",
+		"otf": "--subset=*.otf",
+		"ttf": "--subset=*.ttf",
+		"chinese": "goto && cd chinese && glyph && formats && --whitelist='U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FD' && otf",
+		"latin": "cd src/fonts/noto/latin && glyph && formats && --whitelist='U+????' && ttf"
 	},
 	"files": [
 		"LICENSE",

@@ -1,31 +1,28 @@
 // Variable outlier
 
 // Arabic (Naskh) regular
-@font-face { @include font-face(Noto, Naskh, Arabic, null, -VF, -subset, 100 900, normal, swap, $arabic, null, null); }
+@font-face { @include font-face(Noto, Naskh, Arabic, null, -VF, -subset, 100 900, normal, $global-font-display, $arabic, null, null); }
 
 // Arabic (Kufi) regular
-@font-face { @include font-face(Noto, Kufi, Arabic, null, -VF, -subset, 100 900, normal, swap, $arabic, null, null); }
+@font-face { @include font-face(Noto, Kufi, Arabic, null, -VF, -subset, 100 900, normal, $global-font-display, $arabic, null, null); }
 
 // Nushu Traditional regular
-// @font-face { @include font-face(Noto, Nushu, Traditional, -VF, -subset, 100 900, normal, swap, $nushu, $oneSpace, null); }
+// @font-face { @include font-face(Noto, Nushu, Traditional, -VF, -subset, 100 900, normal, $global-font-display, $nushu, $oneSpace, null); }
 
-// Variable fonts for Rashi Hebrew
-@font-face { @include font-face(Noto, Rashi, Hebrew, null, -VF, -subset, 100 900, normal, swap, $hebrew, null, null); }
+// Rashi Hebrew -VF
+@font-face { @include font-face(Noto, Rashi, Hebrew, null, -VF, -subset, 100 900, normal, $global-font-display, $hebrew, null, null); }
 
 // Latin Sans Italic -VF
-@font-face { @include font-face(Noto, Sans, Latin, Italic, -VF, -subset, 100 900, normal, swap, $latin, $oneSpace, null); }
+@font-face { @include font-face(Noto, Sans, Latin, Italic, -VF, -subset, 100 900, normal, $global-font-display, $latin, $oneSpace, $oneDash); }
 
 // Latin Serif Italic -VF
-// @font-face { @include font-face(Noto, Serif, Latin, Italic, -VF, -subset, 100 900, normal, swap, $latin, $oneSpace, null); }
+// @font-face { @include font-face(Noto, Serif, Latin, Italic, -VF, -subset, 100 900, normal, $global-font-display, $latin, $oneSpace, $oneDash); }
 
 // Latin Mono -VF
-@font-face { @include font-face(Noto, Sans, Latin, Mono, -VF, -subset, 100 900, normal, swap, $latin, $oneSpace, null); }
+@font-face { @include font-face(Noto, Sans, Latin, Mono, -VF, -subset, 100 900, normal, $global-font-display, $latin, $oneSpace, null); }
 
-// Tamil slanted regular
-@font-face { @include font-face(Noto, Serif, Tamil, Slanted, -VF, -subset, 100 900, normal, swap, $tamil, $oneSpace, null); }
+// Tamil serif slanted regular -VF
+@font-face { @include font-face(Noto, Serif, Tamil, Slanted, -VF, -subset, 100 900, normal, $global-font-display, $tamil, $oneSpace, null); }
 
-// Adlam Unjoined
-@font-face { @include font-face(Noto, Sans, Adlam, Unjoined, -VF, -subset, 100 900, normal, swap, $adlam, $oneSpace, null); }
-
-// Naskh Arabic
-@font-face { @include font-face(Noto, Naskh, Arabic, UI, -VF, -subset, 100 900, normal, swap, $arabic, $oneSpace, null); }
+// Adlam Sans Unjoined -VF
+@font-face { @include font-face(Noto, Sans, Adlam, Unjoined, -VF, -subset, 100 900, normal, $global-font-display, $adlam, $oneSpace, null); }

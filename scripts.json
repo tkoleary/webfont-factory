@@ -12,7 +12,7 @@
 		"c-aboriginal": "cd src/fonts/noto/canadian-aboriginal && glyphhanger --formats=woff2,woff --whitelist="U+1400-167F, U+18B0-18" --subset=*.ttf && cd ~/sites/Github/webfont-factory",
 		"cham": "cd src/fonts/noto/cham && glyphhanger --formats=woff2,woff --whitelist="U+AA00-AA5" --subset=*.ttf && cd ~/sites/Github/webfont-factory",
 		"cherokee": "cd src/fonts/noto/cherokee && glyphhanger --formats=woff2,woff --whitelist="U+13A0-13" --subset=*.ttf && cd ~/sites/Github/webfont-factory",
-		"chinese": "cd src/fonts/noto/chinese && glyphhanger --formats=woff2,woff --whitelist="U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FD" --subset=*.ttf && cd ~/sites/Github/webfont-factory",
+		"chinese": "cd src/fonts/noto/chinese && glyphhanger --formats=woff2,woff --whitelist="U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FD" --subset=*.otf && cd ~/sites/Github/webfont-factory",
 		"cyrillic": "cd src/fonts/noto/cyrillic && glyphhanger --formats=woff2,woff --whitelist="U+0400-04FF, U+0500-052F, U+1C80-1C8" --subset=*.ttf && cd ~/sites/Github/webfont-factory",
 		"devanagari": "cd src/fonts/noto/devanagari && glyphhanger --formats=woff2,woff --whitelist="U+0900-097F, U+A8E0-A8" --subset=*.ttf && cd ~/sites/Github/webfont-factory",
 		"elymaic": "cd src/fonts/noto/- && glyphhanger --formats=woff2,woff --whitelist="U+10FE0-10F" --subset=*.ttf && cd ~/sites/Github/webfont-factory && cd ~/sites/Github/webfont-factory",

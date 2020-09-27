@@ -1,109 +1,109 @@
 // Static serif fonts
 
 // Adlam Serif regular
-//@font-face { @include font-face(Noto, Sans, Adlam, null, -Regular, -subset, normal, normal, swap, $adlam, null, null); }
+//@font-face { @include font-face(Noto, Serif, Adlam, null, -Regular, -subset, normal, normal, $global-font-display, $adlam, null, null); }
 
 // Arabic Serif regular
-//@font-face { @include font-face(Noto, Serif, Arabic, null, -Regular, -subset, normal, normal, swap, $arabic, null, null); }
+//@font-face { @include font-face(Noto, Serif, Arabic, null, -Regular, -subset, normal, normal, $global-font-display, $arabic, null, null); }
 
 // Armenian serif regular
-@font-face { @include font-face(Noto, Serif, Armenian, null, -Regular, -subset, normal, normal, swap, $armenian, null, null); }
+@font-face { @include font-face(Noto, Serif, Armenian, null, -Regular, -subset, normal, normal, $global-font-display, $armenian, null, null); }
 
 // Balinese Serif regular
-@font-face { @include font-face(Noto, Serif, Balinese, null, -Regular, -subset, normal, normal, swap, $balinese, null, null); }
+@font-face { @include font-face(Noto, Serif, Balinese, null, -Regular, -subset, normal, normal, $global-font-display, $balinese, null, null); }
 
 // Bengali (Bangla script) Serif regular
-@font-face { @include font-face(Noto, Serif, Bengali, null, -Regular, -subset, normal, normal, swap, $bengali, null, null); }
+@font-face { @include font-face(Noto, Serif, Bengali, null, -Regular, -subset, normal, normal, $global-font-display, $bengali, null, null); }
 
 // Brahmi Serif regular
-//@font-face { @include font-face(Noto, Serif, Brahmi, null, -Regular, -subset, normal, normal, swap, $brahmi, null, null); }
+//@font-face { @include font-face(Noto, Serif, Brahmi, null, -Regular, -subset, normal, normal, $global-font-display, $brahmi, null, null); }
 
 // Buginese Serif regular
-//@font-face { @include font-face(Noto, Serif, Buginese, null, -Regular, -subset, normal, normal, swap, $buginese, null, null); }
+//@font-face { @include font-face(Noto, Serif, Buginese, null, -Regular, -subset, normal, normal, $global-font-display, $buginese, null, null); }
 
 // Buhid Serif regular
-//@font-face { @include font-face(Noto, Serif, Buhid, null, -Regular, -subset, normal, normal, swap, $buhid, null, null); }
+//@font-face { @include font-face(Noto, Serif, Buhid, null, -Regular, -subset, normal, normal, $global-font-display, $buhid, null, null); }
 
 // Unified Canadian Aboriginal
-//@font-face { @include font-face(Noto, Serif, Canadian, Aboriginal, -Regular, -subset, normal, normal, swap, $c-aboriginal, $oneSpace, null); }
+//@font-face { @include font-face(Noto, Serif, Canadian, Aboriginal, -Regular, -subset, normal, normal, $global-font-display, $c-aboriginal, $oneSpace, null); }
 
 // Devanagari serif regular
-@font-face { @include font-face(Noto, Serif, Devanagari, null, -Regular, -subset, normal, normal, swap, $devanagari, null, null); }
+@font-face { @include font-face(Noto, Serif, Devanagari, null, -Regular, -subset, normal, normal, $global-font-display, $devanagari, null, null); }
 
 // Ethiopic serif regular
-@font-face { @include font-face(Noto, Serif, Ethiopic, null, -Regular, -subset, normal, normal, swap, $ethiopic, null, null); }
+@font-face { @include font-face(Noto, Serif, Ethiopic, null, -Regular, -subset, normal, normal, $global-font-display, $ethiopic, null, null); }
 
 // Georgian serif regular
-@font-face { @include font-face(Noto, Serif, Georgian, null, -Regular, -subset, normal, normal, swap, $georgian, null, null); }
+@font-face { @include font-face(Noto, Serif, Georgian, null, -Regular, -subset, normal, normal, $global-font-display, $georgian, null, null); }
 
 // Gujarati Serif regular
-@font-face { @include font-face(Noto, Serif, Gujarati, null, -Regular, -subset, normal, normal, swap, $gujarati, null, null); }
+@font-face { @include font-face(Noto, Serif, Gujarati, null, -Regular, -subset, normal, normal, $global-font-display, $gujarati, null, null); }
 
 // Gurmukhi Serif regular
-@font-face { @include font-face(Noto, Serif, Gurmukhi, null, -Regular, -subset, normal, normal, swap, $gurmukhi, null, null); }
+@font-face { @include font-face(Noto, Serif, Gurmukhi, null, -Regular, -subset, normal, normal, $global-font-display, $gurmukhi, null, null); }
 
 // Hanunoo Serif regular
-//@font-face { @include font-face(Noto, Serif, Hanunoo, null, -Regular, -subset, normal, normal, swap, $hanunoo, null, null); }
+//@font-face { @include font-face(Noto, Serif, Hanunoo, null, -Regular, -subset, normal, normal, $global-font-display, $hanunoo, null, null); }
 
 // Hebrew serif regular
-@font-face { @include font-face(Noto, Serif, Hebrew, null, -Regular, -subset, normal, normal, swap, $hebrew, null, null); }
+@font-face { @include font-face(Noto, Serif, Hebrew, null, -Regular, -subset, normal, normal, $global-font-display, $hebrew, null, null); }
 
 // Kannada Serif regular
-@font-face { @include font-face(Noto, Serif, Kannada, null, -Regular, -subset, normal, normal, swap, $kannada, null, null); }
+@font-face { @include font-face(Noto, Serif, Kannada, null, -Regular, -subset, normal, normal, $global-font-display, $kannada, null, null); }
 
 // Khmer Serif regular
-@font-face { @include font-face(Noto, Serif, Khmer, null, -Regular, -subset, normal, normal, swap, $khmer, null, null); }
+@font-face { @include font-face(Noto, Serif, Khmer, null, -Regular, -subset, normal, normal, $global-font-display, $khmer, null, null); }
 
 // Lao serif regular
-@font-face { @include font-face(Noto, Serif, Lao, null, -Regular, -subset, normal, normal, swap, $lao, null, null); }
+@font-face { @include font-face(Noto, Serif, Lao, null, -Regular, -subset, normal, normal, $global-font-display, $lao, null, null); }
 
 // Latin serif regular
-@font-face { @include font-face(Noto, Serif, Latin, null, -Regular, -subset, normal, normal, swap, $latin, null, null); }
+@font-face { @include font-face(Noto, Serif, Latin, null, -Regular, -subset, normal, normal, $global-font-display, $latin, null, null); }
 
 // Limbu serif regular
-//@font-face { @include font-face(Noto, Serif, Limbu, null, -Regular, -subset, normal, normal, swap, $limbu, null, null); }
+//@font-face { @include font-face(Noto, Serif, Limbu, null, -Regular, -subset, normal, normal, $global-font-display, $limbu, null, null); }
 
 // Lisu serif regular
-//@font-face { @include font-face(Noto, Serif, Lisu, null, -Regular, -subset, normal, normal, swap, $lisu, null, null); }
+//@font-face { @include font-face(Noto, Serif, Lisu, null, -Regular, -subset, normal, normal, $global-font-display, $lisu, null, null); }
 
 // Malayalam serif regular
-@font-face { @include font-face(Noto, Serif, Malayalam, null, -Regular, -subset, normal, normal, swap, $malayalam, null, null); }
+@font-face { @include font-face(Noto, Serif, Malayalam, null, -Regular, -subset, normal, normal, $global-font-display, $malayalam, null, null); }
 
 // Myanmar serif regular
-@font-face { @include font-face(Noto, Serif, Myanmar, null, -Regular, -subset, normal, normal, swap, $myanmar, null, null); }
+@font-face { @include font-face(Noto, Serif, Myanmar, null, -Regular, -subset, normal, normal, $global-font-display, $myanmar, null, null); }
 
 // NKo Serif regular
-//@font-face { @include font-face(Noto, Serif, NKo, null, -Regular, -subset, normal, normal, swap, $nko, null, null); }
+//@font-face { @include font-face(Noto, Serif, NKo, null, -Regular, -subset, normal, normal, $global-font-display, $nko, null, null); }
 
 // Oriya Serif regular
-//@font-face { @include font-face(Noto, Serif, Oriya, null, -Regular, -subset, normal, normal, swap, $$oriya, null, null); }
+//@font-face { @include font-face(Noto, Serif, Oriya, null, -Regular, -subset, normal, normal, $global-font-display, $$oriya, null, null); }
 
 // Sinhala serif regular
-@font-face { @include font-face(Noto, Serif, Sinhala, null, -Regular, -subset, normal, normal, swap, $sinhala, null, null); }
+@font-face { @include font-face(Noto, Serif, Sinhala, null, -Regular, -subset, normal, normal, $global-font-display, $sinhala, null, null); }
 
 // Tagalog Serif regular
-// @font-face { @include font-face(Noto, Serif, Tagalog, null, -Regular, -subset, normal, normal, swap, $tagalog, null, null); }
+// @font-face { @include font-face(Noto, Serif, Tagalog, null, -Regular, -subset, normal, normal, $global-font-display, $tagalog, null, null); }
 
 // Tai Le Serif regular
-// @font-face { @include font-face(Noto, Serif, Tai, Le, -Regular, -subset, normal, normal, swap, $tai-le, $oneSpace, null); }
+// @font-face { @include font-face(Noto, Serif, Tai, Le, -Regular, -subset, normal, normal, $global-font-display, $tai-le, $oneSpace, null); }
 
 // Tai Tham Serif regular
-// @font-face { @include font-face(Noto, Serif, Tai, Tham, -Regular, -subset, normal, normal, swap, $tai-tham, $oneSpace, null); }
+// @font-face { @include font-face(Noto, Serif, Tai, Tham, -Regular, -subset, normal, normal, $global-font-display, $tai-tham, $oneSpace, null); }
 
 // Tai Viet Serif regular
-// @font-face { @include font-face(Noto, Serif, Tai, Viet, -Regular, -subset, normal, normal, swap, $tai-viet, $oneSpace, null); }
+// @font-face { @include font-face(Noto, Serif, Tai, Viet, -Regular, -subset, normal, normal, $global-font-display, $tai-viet, $oneSpace, null); }
 
 // Tamil Serif regular
-@font-face { @include font-face(Noto, Serif, Tamil, null, -Regular, -subset, normal, normal, swap, $tamil, null, null); }
+@font-face { @include font-face(Noto, Serif, Tamil, null, -Regular, -subset, normal, normal, $global-font-display, $tamil, null, null); }
 
 // Telugu Serif regular
-@font-face { @include font-face(Noto, Serif, Telugu, null, -Regular, -subset, normal, normal, swap, $telugu, null, null); }
+@font-face { @include font-face(Noto, Serif, Telugu, null, -Regular, -subset, normal, normal, $global-font-display, $telugu, null, null); }
 
 // Thai Serif regular
-@font-face { @include font-face(Noto, Serif, Thai, null, -Regular, -subset, normal, normal, swap, $thai, null, null); }
+@font-face { @include font-face(Noto, Serif, Thai, null, -Regular, -subset, normal, normal, $global-font-display, $thai, null, null); }
 
 // Tibetan Serif regular
-@font-face { @include font-face(Noto, Serif, Tibetan, null, -Regular, -subset, normal, normal, swap, $tibetan, null, null); }
+@font-face { @include font-face(Noto, Serif, Tibetan, null, -Regular, -subset, normal, normal, $global-font-display, $tibetan, null, null); }
 
 // Zanabazar Square Serif regular
-//@font-face { @include font-face(Noto, Serif, Zanabazar, Square, -Regular, -subset, normal, normal, swap, $Zanabazar, $oneSpace, null); }
+//@font-face { @include font-face(Noto, Serif, Zanabazar, Square, -Regular, -subset, normal, normal, $global-font-display, $Zanabazar, $oneSpace, null); }

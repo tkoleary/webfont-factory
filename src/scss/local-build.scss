@@ -1,0 +1,14 @@
+// Local build
+
+// This file builds your CSS to the dist folder in this project using the Gulp task 'compileScss'
+
+// When using webfont-factory as a node module in another project like Lingua,
+// import webfonts.scss into that project and set the variables below in your style.scss there
+
+// Change this variable if you need to locate fonts in a different place in your environment
+$font-path: "fonts/";
+
+// Change this variable to set a different font display property for all webfonts
+$global-font-display: swap;
+
+@import "webfonts";
