@@ -1,0 +1,121 @@
+// Static sans fonts
+
+// Arabic sans regular
+@font-face { @include font-face(Noto, Sans, Arabic, null, -Regular, -subset, normal, normal, $global-font-display, $arabic, null, null); }
+
+// Adlam sans regular
+@font-face { @include font-face(Noto, Sans, Adlam, null, -Regular, -subset, normal, normal, $global-font-display, $adlam, null, null); }
+
+// Armenian Sans regular
+@font-face { @include font-face(Noto, Sans, Armenian, null, -Regular, -subset, normal, normal, $global-font-display, $armenian, null, null); }
+
+// Balinese sans regular
+@font-face { @include font-face(Noto, Sans, Balinese, null, -Regular, -subset, normal, normal, $global-font-display, $balinese, null, null); }
+
+// Bengali sans regular
+@font-face { @include font-face(Noto, Sans, Bengali, null, -Regular, -subset, normal, normal, $global-font-display, $bengali, null, null); }
+
+// Brahmi sans regular
+@font-face { @include font-face(Noto, Sans, Brahmi, null, -Regular, -subset, normal, normal, $global-font-display, $brahmi, null, null); }
+
+// Buginese sans regular
+@font-face { @include font-face(Noto, Sans, Buginese, null, -Regular, -subset, normal, normal, $global-font-display, $buginese, null, null); }
+
+// Buhid sans regular
+@font-face { @include font-face(Noto, Sans, Buhid, null, -Regular, -subset, normal, normal, $global-font-display, $buhid, null, null); }
+
+// Sans fonts for Unified Cherokee
+@font-face { @include font-face(Noto, Sans, Cherokee, null, -Regular, -subset, normal, normal, $global-font-display, $cherokee, null, null); }
+
+// Unified Canadian Aboriginal
+@font-face { @include font-face(Noto, Sans, Canadian, Aboriginal, -Regular, -subset, normal, normal, $global-font-display, $c-aboriginal, $oneSpace, null); }
+
+// Devanagari Sans regular
+@font-face { @include font-face(Noto, Sans, Devanagari, null, -Regular, -subset, normal, normal, $global-font-display, $devanagari, null, null); }
+
+// Ethiopic Sans regular
+@font-face { @include font-face(Noto, Sans, Ethiopic, null, -Regular, -subset, normal, normal, $global-font-display, $ethiopic, null, null); }
+
+// Georgian Sans regular
+@font-face { @include font-face(Noto, Sans, Georgian, null, -Regular, -subset, normal, normal, $global-font-display, $georgian, null, null); }
+
+// Gujarati sans regular
+@font-face { @include font-face(Noto, Sans, Gujarati, null, -Regular, -subset, normal, normal, $global-font-display, $gujarati, null, null); }
+
+// Gurmukhi sans regular
+@font-face { @include font-face(Noto, Sans, Gurmukhi, null, -Regular, -subset, normal, normal, $global-font-display, $gurmukhi, null, null); }
+
+// Hanifi Rohingya Sans Regular
+@font-face { @include font-face(Noto, Sans, Hanifi, Rohingya, -Regular, -subset, normal, normal, $global-font-display, $hanifi-rohingya, $oneSpace, null); }
+
+// Hanunoo sans regular
+@font-face { @include font-face(Noto, Sans, Hanunoo, null, -Regular, -subset, normal, normal, $global-font-display, $hanunoo, null, null); }
+
+// Hebrew Sans regular
+@font-face { @include font-face(Noto, Sans, Hebrew, null, -Regular, -subset, normal, normal, $global-font-display, $hebrew, null, null); }
+
+// Kannada Sans regular
+@font-face { @include font-face(Noto, Sans, Kannada, null, -Regular, -subset, normal, normal, $global-font-display, $kannada, null, null); }
+
+// Khmer sans regular
+@font-face { @include font-face(Noto, Sans, Khmer, null, -Regular, -subset, normal, normal, $global-font-display, $khmer, null, null); }
+
+// Latin Sans regular
+@font-face { @include font-face(Noto, Sans, Latin, null, -Regular, -subset, normal, normal, $global-font-display, $latin, null, null); }
+
+// Lao Sans regular
+@font-face { @include font-face(Noto, Sans, Lao, null, -Regular, -subset, normal, normal, $global-font-display, $lao, null, null); }
+
+// Limbu Sans regular
+@font-face { @include font-face(Noto, Sans, Limbu, null, -Regular, -subset, normal, normal, $global-font-display, $limbu, null, null); }
+
+// Lisu Sans regular
+@font-face { @include font-face(Noto, Sans, Lisu, null, -Regular, -subset, normal, normal, $global-font-display, $lisu, null, null); }
+
+// Malayalam Sans regular
+@font-face { @include font-face(Noto, Sans, Malayalam, null, -Regular, -subset, normal, normal, $global-font-display, $malayalam, null, null); }
+
+// Myanmar Sans regular
+@font-face { @include font-face(Noto, Sans, Myanmar, null, -Regular, -subset, normal, normal, $global-font-display, $myanmar, null, null); }
+
+// NKo sans regular
+@font-face { @include font-face(Noto, Sans, NKo, null, -Regular, -subset, normal, normal, $global-font-display, $nko, null, null); }
+
+// Oriya sans regular
+@font-face { @include font-face(Noto, Sans, Oriya, null, -Regular, -subset, normal, normal, $global-font-display, $oriya, null, null); }
+
+// OlChiki sans regular
+@font-face { @include font-face(Noto, Sans, Ol, Chiki, -Regular, -subset, normal, normal, $global-font-display, $olchiki, $oneSpace, null); }
+
+// Sinhala Sans regular
+@font-face { @include font-face(Noto, Sans, Sinhala, null, -Regular, -subset, normal, normal, $global-font-display, $sinhala, null, null); }
+
+// Tagalog sans regular
+@font-face { @include font-face(Noto, Sans, Tagalog, null, -Regular, -subset, normal, normal, $global-font-display, $tagalog, null, null); }
+
+// Tai Le sans regular
+@font-face { @include font-face(Noto, Sans, Tai, Le, -Regular, -subset, normal, normal, $global-font-display, $tai-le, $oneSpace, null); }
+
+// Tai Tham sans regular
+@font-face { @include font-face(Noto, Sans, Tai, Tham, -Regular, -subset, normal, normal, $global-font-display, $tai-tham, $oneSpace, null); }
+
+// Tai Viet sans regular
+@font-face { @include font-face(Noto, Sans, Tai, Viet, -Regular, -subset, normal, normal, $global-font-display, $tai-viet, $oneSpace, null); }
+
+// Tamil sans regular
+@font-face { @include font-face(Noto, Sans, Tamil, null, -Regular, -subset, normal, normal, $global-font-display, $tamil, null, null); }
+
+// Telugu sans regular
+@font-face { @include font-face(Noto, Sans, Telugu, null, -Regular, -subset, normal, normal, $global-font-display, $telugu, null, null); }
+
+// Thai sans regular
+@font-face { @include font-face(Noto, Sans, Thai, null, -Regular, -subset, normal, normal, $global-font-display, $thai, null, null); }
+
+// Thaana regular
+@font-face { @include font-face(Noto, Sans, Thaana, null, -Regular, -subset, normal, normal, $global-font-display, $thaana, null, null); }
+
+// Tibetan sans regular
+@font-face { @include font-face(Noto, Sans, Tibetan, null, -Regular, -subset, normal, normal, $global-font-display, $tibetan, null, null); }
+
+// Zanabazar Square sans regular
+@font-face { @include font-face(Noto, Sans, Zanabazar, Square, -Regular, -subset, normal, normal, $global-font-display, $Zanabazar, $oneSpace, null); }

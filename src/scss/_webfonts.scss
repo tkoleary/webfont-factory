@@ -1,3 +1,4 @@
+
 // All webfonts
 
 // When using webfont-factory as a node module in another project like Lingua
@@ -12,11 +13,11 @@
 @import "unicode-ranges";
 @import "mixins";
 
-@import "static-outlier";
-@import "static-sans";
-@import "static-serif";
-@import "static-ui";
-@import "variable-outlier";
-@import "variable-sans";
-@import "variable-serif";
-@import "variable-ui";
+@import "noto/static-outlier";
+@import "noto/static-sans";
+@import "noto/static-serif";
+@import "noto/static-ui";
+@import "noto/variable-outlier";
+@import "noto/variable-sans";
+@import "noto/variable-serif";
+@import "noto/variable-ui";

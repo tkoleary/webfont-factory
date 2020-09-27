@@ -49,22 +49,6 @@ function compileSass(cb) {
 	cb();
 }
 
-// Not working yet
-function generateFonts(cb) {
-	return src(config.ttfs)
-	.pipe(spawn({
-		cmd: "yarn run glyphs"
-		//args: ["-", "-resize", "50%", "-"],
-		// optional
-		//opts: { cwd: "." },
-		//filename: function(base, ext) {
-		//	return base + "-half" + ext;
-		//}
-	}))
-	.pipe(dest(config.buildFonts))
-	cb();
-}
-
 // Move the fonts from their subfolders to one big folder
 function flattenFonts(cb) {
 	return src(config.fonts)
